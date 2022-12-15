@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '8f993da99ecdcb1256e1807f3e0b958e63f1c54f88b5c855f8cf8469675e1c753124a985c30e8c8397e36afed40125a90190cdc9f40849dc2201104550154234'
+  config.secret_key = 'cd930567f8ecdbb34905f39fe60dfd45d0362855288b6e09c719cc394b2ea9693ce92ee25b3f516ab66e4da62a9db836f665b5ae49967d366da2c3f67707de1e'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -47,7 +47,7 @@ Devise.setup do |config|
   # You can also supply a hash where the value is a boolean determining whether
   # or not authentication should be aborted when the value is not present.
   config.authentication_keys = [:name]
-
+  config.authentication_keys = [:email]
   # Configure parameters from the request object used for authentication. Each entry
   # given should be a request method and it will automatically be passed to the
   # find_for_authentication method and considered in your model lookup. For instance,
@@ -266,7 +266,7 @@ Devise.setup do |config|
   # config.navigational_formats = ['*/*', :html]
 
   # The default HTTP method used to sign out a resource. Default is :delete.
-  config.sign_out_via = :delete
+  config.sign_out_via = :get
 
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting

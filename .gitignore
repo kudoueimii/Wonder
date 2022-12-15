@@ -30,7 +30,9 @@
 
 /public/packs
 /public/packs-test
-/node_modules
+/public/uploads
+/node_modules_copy
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+.env

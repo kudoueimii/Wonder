@@ -1,0 +1,15 @@
+<body class="main-container">
+  <div class="text">
+    <h1><%= t('.page') %><h1>
+    <h2>Homes#index</h2>
+
+    <p>説明文</p>
+    <%= link_to t('.Sign In'),  new_user_registration_path %>
+    <%= link_to t('.Index'), dogs_path %>
+
+    <%= link_to t('.Guest login'), users_guest_sign_in_path, method: :post %>
+  </div>
+</body>
+
+<%= link_to t('.Japanese'), locale_path(locale: "ja") %>
+<%= link_to t('.English'), locale_path(locale: "en") %>

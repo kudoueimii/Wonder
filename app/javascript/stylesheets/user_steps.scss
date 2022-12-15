@@ -1,0 +1,61 @@
+body {
+  color: #0C244A;
+  background-color:#F0C0C0;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p.enum-choice {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+div.enum-choice {
+  text-align: center;
+  margin: 20px;
+}
+
+div.actions {
+	display: flex;
+	justify-content: center;
+}
+
+.radio-inline__input {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-right: 18px;
+  margin-left: 18px;
+  border-radius: 10px;
+  transition: all .2s;
+}
+
+.radio-inline__input:checked + .radio-inline__label {
+  background: #80C0A0;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input:focus + .radio-inline__label {
+  outline-color:  #80C0A0;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+div.button02 {
+  text-align: center;
+  width: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.left{
+  float: left;
+}

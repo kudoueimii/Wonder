@@ -1,17 +1,26 @@
 Rails.application.routes.draw do
-  root 'homes#index'
+  devise_for :users, controllers: {
+    registrations: 'users/registrations',
+    sessions: 'users/sessions'
+  }
+  
+  devise_scope :user do
+    post 'users/guest_sign_in', to: 'users/sessions#guest_sign_in'
+  end
+
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
+  root 'homes#top'
+
+  get '/locale', to: 'languages#locale', as: 'locale'
 
   resources :dogs do
     collection do
       get 'search'
       get 'search_results'
+      get 'matching_results'
     end
   end
-
-  devise_for :users, controllers: {
-    registrations: 'users/registrations',
-    sessions: 'users/sessions'
-  }
 
   resources :user_choices
 
@@ -23,7 +32,13 @@ Rails.application.routes.draw do
       get 'fourth'
       get 'fifth'
       get 'sixth'
-      get 'search_results'
+      get 'matching_results'
     end
   end
+
+  resources :users, only: [:show]
+
+  resources :favorites, only: [:create, :destroy]
+
+  resources :posts
 end

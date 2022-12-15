@@ -1,0 +1,29 @@
+<h1><%=t('.Answer')%></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th><%=t('.vehicle')%></th>
+      <th><%=t('.cleaning')%></th>
+      <th><%=t('.active')%></th>
+      <th><%=t('.exercise')%></th>
+      <th><%=t('.home')%></th>
+      <th><%=t('.house')%></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_choices.each do |choice| %>
+      <tr>
+        <td><%= choice.vehicle_i18n %></td>
+        <td><%= choice.cleaning_i18n %></td>
+        <td><%= choice.active_i18n %></td>
+        <td><%= choice.exercise_i18n %></td>
+        <td><%= choice.home_i18n %></td>
+        <td><%= choice.house_i18n %></td>
+        <td><%= link_to "Edit", edit_user_choice_path(current_user) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
