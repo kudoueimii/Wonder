@@ -57,6 +57,7 @@ ja:
       password: パスワード
       password_confirmation: 確認用パスワード
       characters minimum: 文字以上
+      sign_in: サインイン
       Log in: ログイン
   dogs:
     show:
@@ -66,6 +67,7 @@ ja:
       Active: 運動
       Cleaning: 抜け毛
       Click here for like: いいねする
+      Back: 戻る
     search:
       Let find doggos: わんちゃんを探す
       Breed: 犬種名
@@ -94,4 +96,3 @@ ja:
       Show: 詳しくみる
       Search Dogs: 他のわんちゃんを探してみる
       My page: マイページ
-  
