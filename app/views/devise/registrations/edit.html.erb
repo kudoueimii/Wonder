@@ -47,11 +47,11 @@
 <% end %>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit (t'.Edit'), class: "btn btn-outline-info active"  %>
   </div>
 <% end %>
 
 <div class="cancel_account">
 <%= button_to t('.Cancel'), registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %>
 </div>
-<%= link_to t('.Back'), :back %>
+<%= link_to t('.Back'), :back, class: "text-info"%>

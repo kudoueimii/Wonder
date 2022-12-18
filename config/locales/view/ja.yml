@@ -12,17 +12,40 @@ ja:
   user_steps:
     first:
       What do you ride?: ふだんよく乗るのは？
+      Car: 車
+      Train: 電車
+      Next: 次へ
       Back: 戻る
     second:
       Do you like cleaning up?: こまめなお掃除が？
+      Like: 好き
+      Dislike: 苦手
+      Next: 次へ
+      Back: 戻る
     third:
       Active day off: アクティブな休日が？
+      Like: 好き
+      Dislike: 苦手
+      Next: 次へ
+      Back: 戻る
     fourth:
       Exercise: 運動するのは？
+      Like: 好き
+      Dislike: 苦手
+      Next: 次へ
+      Back: 戻る
     fifth:
       About family: ご家庭について
+      Kids: 小さいお子さんがいる
+      None: 小さいお子さんはいない
+      Next: 次へ
+      Back: 戻る
     sixth:
       About house: ご自宅について
+      Owned: 持ち家
+      Lent: 賃貸
+      Next: 次へ
+      Back: 戻る
   user_choices:
     index:
       Answer: 選択した回答

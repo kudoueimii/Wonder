@@ -4,16 +4,16 @@
 
   <div class="enum-choice">
     <%= form.radio_button :home, :kids, class: "radio-inline__input" %>
-    <%= form.label(:home, "kids", value: "kids", class: "radio-inline__label") %>
+    <%= form.label(:home, (t'.Kids'), value: "kids", class: "radio-inline__label") %>
     <%= form.radio_button :home, :none, class: "radio-inline__input" %>
-    <%= form.label(:home, "none", value: "none", class: "radio-inline__label") %>
+    <%= form.label(:home, (t'.None'), value: "none", class: "radio-inline__label") %>
   </div>
   
   <div class="actions">
-    <%= form.submit "次へ", class: "button004"%>
+    <%= form.submit (t '.Next'), class: "button004"%>
   </div>
   <div class="step_back">
-   <%= link_to 'Back', fourth_user_steps_path %>
+   <%= link_to t('.Back'), fourth_user_steps_path, class: "text-info" %>
   </div>
 
   <div class="tip">
