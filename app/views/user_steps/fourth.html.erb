@@ -1,19 +1,19 @@
  <%= form_with model: @user_choice, url: fifth_user_steps_path, method: :get do |form| %>
-  <h6 class="which_one">当てはまる方を選んでください</h6>
+  <h6 class="which_one"><%= t('.Notice')%></h6>
   <p class="enum-choice"><%= t('.Exercise') %></p>
 
   <div class="enum-choice">
     <%= form.radio_button :exercise, :like, class: "radio-inline__input" %>
-    <%= form.label(:exercise, "like", value: "like", class: "radio-inline__label") %>
+    <%= form.label(:exercise, (t'.Like'), value: "like", class: "radio-inline__label") %>
     <%= form.radio_button :exercise, :dislike, class: "radio-inline__input" %>
-    <%= form.label(:exercise, "dislike", value: "dislike", class: "radio-inline__label") %>
+    <%= form.label(:exercise, (t'.Dislike'), value: "dislike", class: "radio-inline__label") %>
   </div>
   
   <div class="actions">
-    <%= form.submit "次へ", class: "button004" %>
+    <%= form.submit (t '.Next'), class: "button004" %>
   </div>
   <div class="step_back">
-    <%= link_to 'Back', third_user_steps_path %>
+    <%= link_to t('.Back'), third_user_steps_path, class: "text-info" %>
   </div>
 
   <div class="tip">

@@ -1,4 +1,4 @@
-<h1><%=t('.Let find doggos')%></h1>
+<h1><%=t('.Let find doggies')%></h1>
 <div class="row justify-content-center">
   <%= search_form_for @q, url: search_results_dogs_path do |f| %>
     <div class="searching">
@@ -19,12 +19,12 @@
       <%= f.check_box :exercise_eq, {}, 1 , nil%>
       <%= t('.Short walking') %>
       <%= f.check_box :house_eq, {}, 1 , nil%>
-      <%= t('.Lent house') %>
+      <%= t('.Rent house') %>
     </div>
     <div class="button text-center">
-      <%= f.submit t('.Search')  %>
+      <%= f.submit (t'.Search'), class: "btn btn-outline-info active" %>
     </div>
   <% end %>
 </div>
 
-<%= link_to t('.Index'), dogs_path %>
+<%= link_to t('.Index'), dogs_path, class: "text-info" %>

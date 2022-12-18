@@ -1,5 +1,5 @@
 <div class="white-frame">
-  <div class="show_title"><h2>わんちゃんについて詳しく<h2></div>
+  <div class="show_title"><h2><%= t('.dog show')%><h2></div>
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -29,7 +29,7 @@
             <%= @dog.home_i18n %>
           </div>
           <br><br>
-          <div><strong><%= t('.Cleaning') %></strong>
+          <div><strong><%= t('.Cleaning') %></strong><br>
             <%= @dog.cleaning_i18n %>
           <div>
           <br><br>
@@ -40,6 +40,6 @@
       </div>
     </div>
   <div class="show-back">
-    <%= link_to t('.Back'), dogs_path %>
+    <%= link_to t('.Back'), dogs_path, class: "text-info" %>
   </div>
 </div>

@@ -18,7 +18,7 @@ ja:
         car: '車'
         train: '電車'
       cleaning:
-        like: '季節による換毛気軽ため、抜け毛が多い。'
+        like: '季節による換毛期のため、抜け毛が多い。'
         dislike: 'シングルコートのため、抜け毛は少ない。'
       active:
         like: '優れた運動能力がある。お散歩や運動時間の確保が必要。'
@@ -31,7 +31,7 @@ ja:
         none: 'しつけをきちんと行う必要がある。'
       house:
         owned: '持ち家'
-        lent: '賃貸'
+        rent: '賃貸'
     user_choice:
       size:
         big: '大型犬'
@@ -54,7 +54,7 @@ ja:
         none: '小さいお子さんはいない'
       house:
         owned: '持ち家'
-        lent: '賃貸'
+        rent: '賃貸'
   helpers:
     placeholder:
       message:
