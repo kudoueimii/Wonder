@@ -1,33 +1,65 @@
 en:
   users:
     show:
-      Index: Doggos list
+      Page: My page
+      Index: Doggies list
       Matching: Matching
       Matching_Results: Matching Results
+  user_steps:
+    first:
+      Notice: Which one?
+      Next: Next
+      Back: Back
+    second:
+      Notice: Which one?
+      Next: Next
+      Back: Back
+    third:
+      Notice: Which one?
+      Next: Next
+      Back: Back
+    fourth:
+      Notice: Which one?
+      Next: Next
+      Back: Back
+    fifth:
+      Notice: Which one?
+      Next: Next
+      Back: Back
+    sixth:
+      Notice: Which one?
+      Next: Next
+      Back: Back
   homes:
     top:
+      Japanese: 日本語
+      English: English
       page: Home page
-      Index: Doggos list
+      Index: Doggies list
   registrations:
     edit:
+      Edit: Edit
       leave blank: leave blank if you don't want to change it
       Cancel: Cancel my account
     new:
+      Sign up: Sign up
       password_confirmation: password confirmation
   dogs:
     show:
-      Index: Doggos list
+      dog show: More info
+      Index: Doggies list
     search:
-      Index: Doggos list
+      Search: Search
+      Index: Doggies list
     search_results:
-      Search Dogs: Search Doggos
+      Search Dogs: Search Doggies
       Show: more info
-      Index: Doggos list
+      Index: Doggies list
     matching_results:
       Image: Picture
       Show: more info
     index:
-      Dogs: Doggos
+      Dogs: Doggies
       Show: more info
-      Search Dogs: Search Doggos
+      Search Dogs: Search Doggies
       page: My page

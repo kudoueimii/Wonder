@@ -12,38 +12,44 @@ ja:
   user_steps:
     first:
       What do you ride?: ふだんよく乗るのは？
+      Notice: 当てはまる方を選んでください
       Car: 車
       Train: 電車
       Next: 次へ
       Back: 戻る
     second:
       Do you like cleaning up?: こまめなお掃除が？
+      Notice: 当てはまる方を選んでください
       Like: 好き
       Dislike: 苦手
       Next: 次へ
       Back: 戻る
     third:
       Active day off: アクティブな休日が？
+      Notice: 当てはまる方を選んでください
       Like: 好き
       Dislike: 苦手
       Next: 次へ
       Back: 戻る
     fourth:
       Exercise: 運動するのは？
+      Notice: 当てはまる方を選んでください
       Like: 好き
       Dislike: 苦手
       Next: 次へ
       Back: 戻る
     fifth:
       About family: ご家庭について
+      Notice: 当てはまる方を選んでください
       Kids: 小さいお子さんがいる
       None: 小さいお子さんはいない
       Next: 次へ
       Back: 戻る
     sixth:
       About house: ご自宅について
+      Notice: 当てはまる方を選んでください
       Owned: 持ち家
-      Lent: 賃貸
+      Rent: 賃貸
       Next: 次へ
       Back: 戻る
   user_choices:
@@ -60,10 +66,22 @@ ja:
       Top page: トップページ
       Sign In: 初めての方
       Index: ワンちゃんの一覧ページ
-      Guest login: ゲストログイン（閲覧用）
-      Admin guest login: 管理者ゲストログイン
+      Guest login: ゲストログイン
+      Admin login: 管理者ゲストログイン
       Japanese: 日本語
-      English: 英語
+      English: English
+      This is for those of you who are about to welcome a doggy into your family: これから家族にわんちゃんを迎え入れようとしているあなたに。
+      In Japan, you can find about 200 different breeds of doggies!: 日本では、約200種ほどのわんちゃんを見かけることができます。
+      They range from large dogs weighing over 80 kg to small dogs weighing as little as 2 kg,: 80kgを超える大型犬から、2Kgほどの小型犬、
+      They Also Like To Be Physically Active And Get Along Well With Small Children: また体を動かすのが好き、小さな子供とも仲良くできる犬種など。
+      So, what kind of dog will you choose?: さて、どんなわんちゃんを選びますか？
+      Currently, some dogs are being abandoned: 現状では、飼育放棄されるわんちゃんがいます。
+      This problem is caused by a mismatch: 飼い主の生活スタイルや環境と犬の相性が悪い、
+      between the owner's lifestyle and environment, and the dog's personality: ミスマッチから起こる問題です
+      To spend 10-15 years of wonderful life with your dog: わんちゃんと10年15年とずっと素晴らしい日々を過ごすために、
+      you must be wondering what kind of dog is the best match for you: どんなわんちゃんがあなたと相性が良いのか気になりますよね。
+      Can we help you meet a wonderful family member?: 素晴らしい家族と出会うためのお手伝いに。
+      You can do a compatibility check with Wonder!:  Wonderで相性診断ができます。
   session:
     new:
       Sign in: サインイン
@@ -89,17 +107,17 @@ ja:
       Feature: 特徴
       Active: 運動
       Cleaning: 抜け毛
-      Click here for like: いいねする
+      dog show: わんちゃんについて詳しく
       Back: 戻る
     search:
-      Let find doggos: わんちゃんを探す
+      Let find doggies: わんちゃんを探す
       Breed: 犬種名
       Size: 大きさ
       Low-shedding: 抜け毛が少ない
       Gentle: 穏やか
       Dog sport: ドッグスポーツ
       Short walking: お散歩少なめ
-      Lent house: 賃貸OK
+      Rent house: 賃貸OK
       Search: 検索
       Index: ワンちゃんの一覧ページ
     search_results:
