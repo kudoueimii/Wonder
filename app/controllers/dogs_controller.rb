@@ -27,7 +27,7 @@ class DogsController < ApplicationController
   end
   
   def matching_results
-    @dogs = Dog.page(params[:page]).per(10)
+    @dogs = Dog.page(params[:page])
   end
   private
  

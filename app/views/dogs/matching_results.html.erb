@@ -1,6 +1,4 @@
 <div class="center-text">
-  <%= link_to t('.Search Dogs'), search_dogs_path %>
-
   <h1><%=t('.Matching results')%></h1>
   <table>
     <thead>
@@ -10,7 +8,7 @@
         <th><%=t('.Image')%></th>
       </tr>
     </thead>  <tbody>
-      <% Dog.all.each do | dog | %>
+      <% @dogs.each do | dog | %>
         <tr>
           <td><%= dog.name %></td>
           <td class="heart"><p class="rate"><%= matching_result(dog)%>%</p></td>
