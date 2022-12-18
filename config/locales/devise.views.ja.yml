@@ -99,9 +99,16 @@ ja:
         title: "%{resource}編集"
         unhappy: 気に入りません
         update: 更新
+        Edit: プロフィールの編集
+        leave blank: パスワードの変更しない場合は空欄に。
+        characters minimum: 文字以上
+        Cancel: 退会する
+        Back: 戻る
         we_need_your_current_password_to_confirm_your_changes: 変更を反映するには現在のパスワードを入力してください
       new:
         sign_up: アカウント登録
+        sign_in: サインイン
+        characters minimum: 文字以上
       signed_up: アカウント登録が完了しました。
       signed_up_but_inactive: ログインするためには、アカウントを有効化してください。
       signed_up_but_locked: アカウントがロックされているためログインできません。

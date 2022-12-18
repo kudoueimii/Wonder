@@ -4,11 +4,12 @@
 */ 
  .pagination {
   justify-content: center;
+  margin-bottom: 25px;
 }
  
  .pagination>li>a {          
-  border: none;     /*枠線をなくす*/
-  color: #0C244A;   /*文字の色を変える*/
+  border: none;
+  color: #0C244A;
 }
 
 .pagination>.active>a {     
