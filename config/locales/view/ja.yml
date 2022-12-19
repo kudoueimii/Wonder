@@ -91,7 +91,7 @@ ja:
   homes:
     top:
       Top page: トップページ
-      Sign In: 初めての方
+      Sign Up: 初めての方
       Index: ワンちゃんの一覧ページ
       Guest login: ゲストログイン
       Admin login: 管理者ゲストログイン
@@ -111,7 +111,7 @@ ja:
       You can do a compatibility check:  Wonderで相性診断ができます。
   session:
     new:
-      Sign in: サインイン
+      Sign up: サインイン
       Log in: ログイン
   registrations:
     edit:
