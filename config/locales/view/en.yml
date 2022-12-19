@@ -24,12 +24,12 @@ en:
       Back: Back
     third:
       Notice: Which one?
-      Have you ever heard of sheepdogs?: 牧羊犬をご存知ですか？
-      They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,: 放牧されている羊をまとめ牧舎に連れ戻したり、迷ったヒツジを群れに連れ戻すことを行い、
-      and, They are physically strong and good at using their brains: 体力があり、頭を使うのが得意です。
-      There are other herding dogs, hounds, etc: 他にも牧畜犬や猟犬などもいます。
-      There are so many of them that are active in dog sports,: ドッグスポーツで活躍している子がたくさんいるので、
-      You may want to look into dog sports: ドッグスポーツについて調べてはいかがでしょうか。
+      Have you ever heard of sheepdogs?: Have you ever heard of sheepdogs?
+      They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,: They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,
+      and, They are physically strong and good at using their brains: and, They are physically strong and good at using their brains
+      There are other herding dogs, hounds, etc: There are other herding dogs, hounds, etc
+      There are so many of them that are active in dog sports,: There are so many of them that are active in dog sports,
+      You may want to look into dog sports: You may want to look into dog sports
       Next: Next
       Back: Back
     fourth:
@@ -59,9 +59,13 @@ en:
       Back: Back
   homes:
     top:
+      Top page: Top page
+      Sign In: Sign In
       Japanese: 日本語
       English: English
       page: Home page
+      Guest login: Guest login
+      Admin login: Admin login
       This is for those of you who are about to welcome a doggy into your family: This is for those of you who are about to welcome a doggy into your family
       In Japan, you can find about 200 different breeds of doggies!: In Japan, you can find about 200 different breeds of doggies!
       They range from large dogs weighing over 80 kg to small dogs weighing as little as 2 kg,: They range from large dogs weighing over 80 kg to small dogs weighing as little as 2 kg,
@@ -103,6 +107,12 @@ en:
       Show: more info
       Search Dogs: Search Doggies
       page: My page
+  application:
+    application:
+      Search: Search
+      My page: My page
+      Logout: Logout
+      Login: Login
   notice:
     guest_login: Login as guest
     admin_login: login as admin
