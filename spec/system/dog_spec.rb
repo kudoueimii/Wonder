@@ -30,7 +30,7 @@ RSpec.describe 'ドッグデータ管理機能', type: :system do
     context '犬種の検索ができるとき' do
       it 'セレクトボックス検索ができる' do
         visit search_dogs_path
-        select "大型犬", from: 'q_size_eq'
+        select "大型犬", from: 'q_size'
         click_on "commit"
         expect(page).to have_content 'dog000000'
       end
