@@ -18,18 +18,18 @@ en:
         car: Car
         train: Train
       cleaning:
-        like: 'Loses a lot of hair due to seasonal shedding.'
-        dislike: 'Single coat, little shedding.'
+        like: Loses a lot of hair due to seasonal shedding.
+        dislike: Single coat, little shedding.
       active:
-        like: 'Excellent athletic ability. Needs walks and exercise time'
-        dislike: 'Does not require a lot of exercise,
-        but does need moderate play.'
+        like: Excellent athletic ability. Needs walks and exercise time
+        dislike: Does not require a lot of exercise,
+        but does need moderate play.
       exercise:
-        like: 'Needs a walk of at least one hour'
-        dislike: ''
+        like: Needs a walk of at least one hour
+        dislike: 
       home:
-        kids: 'Playful, affectionate and gentle with children.'
-        none: 'Needs to be properly trained'
+        kids: Playful, affectionate and gentle with children.
+        none: Needs to be properly trained
       house:
         owned: Owned
         rent: Rent
@@ -42,18 +42,17 @@ en:
         car: Car
         train: Train
       cleaning:
-        like: 'Loses a lot of hair due to seasonal shedding.'
-        dislike: 'Single coat, little shedding.'
+        like: I like to clean frequently
+        dislike: I don't like to do it too much
       active:
-        like: 'Excellent athletic ability. Needs walks and exercise time'
-        dislike: 'Does not require a lot of exercise,
-        but does need moderate play.'
+        like: Spend time actively
+        dislike: Spend more time at home
       exercise:
-        like: 'Needs a walk of at least one hour'
-        dislike: ''
+        like: I can go for a walk for more than an hour
+        dislike: Don't like it much
       home:
-        kids: 'Playful, affectionate and gentle with children.'
-        none: 'Needs to be properly trained'
+        kids: Have small children and plan to add to family
+        none: No small children
       house:
         owned: Owned
         rent: Rent
