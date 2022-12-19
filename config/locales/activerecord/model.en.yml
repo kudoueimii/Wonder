@@ -1,4 +1,13 @@
 en:
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user:
+        name: Name
+        email: Email
+        password: Password
+        password_confirmation: Password confirmation
   enums:
     dog:
       size:
@@ -24,3 +33,35 @@ en:
       house:
         owned: Owned
         rent: Rent
+    user_choice:
+      size:
+        big: Big
+        medium: Medium
+        small: Small
+      vehicle:
+        car: Car
+        train: Train
+      cleaning:
+        like: 'Loses a lot of hair due to seasonal shedding.'
+        dislike: 'Single coat, little shedding.'
+      active:
+        like: 'Excellent athletic ability. Needs walks and exercise time'
+        dislike: 'Does not require a lot of exercise,
+        but does need moderate play.'
+      exercise:
+        like: 'Needs a walk of at least one hour'
+        dislike: ''
+      home:
+        kids: 'Playful, affectionate and gentle with children.'
+        none: 'Needs to be properly trained'
+      house:
+        owned: Owned
+        rent: Rent
+  helpers:
+    placeholder:
+      message:
+        name: Name
+    submit:
+      create: Create
+      update: Update
+      submit: Submit

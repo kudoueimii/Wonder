@@ -59,7 +59,6 @@ ja:
     placeholder:
       message:
         name: 名前
-        password: ６文字以上
     submit:
       create: 登録する
       update: 更新
