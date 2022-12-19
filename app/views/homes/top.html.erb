@@ -10,7 +10,10 @@
     <p class="small"><%= t('.To spend 10-15 years of wonderful life with your dog') %><br>
     <%= t('.you must be wondering what kind of dog is the best match for you') %></p>
     <h4><%= t('.Can we help you meet a wonderful family member?') %></h4>
-    <h1 class="conclusion"><%= t('.You can do a compatibility check with Wonder!') %></h1>
+    <h1 class="conclusion"><%= t('.You can do a compatibility check') %></h1><br>
+    <% unless cookies[:locale] == "ja" %>
+      <h1 class="conclusion"><%= t('.with Wonder!') %></h1>
+    <% end %>
 
   <div class="link">
     <%= link_to t('.Sign In'),  new_user_registration_path, id: "signup" %>

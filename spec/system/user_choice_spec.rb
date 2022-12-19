@@ -14,7 +14,8 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
       context 'セッション機能' do
         it '次のページへ移動' do
           visit first_user_steps_path
-          choose('user_choice_vehicle_car')
+          car = find("user_choice[car]", visible: false)
+          car.click
           click_button "next"
           expect(page).to have_content 'こまめな掃除が'
         end
@@ -23,7 +24,6 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
         it '次のページへ移動' do
           visit first_user_steps_path
           click_button "next"
-          #コントローラーエラー
           expect(page).to have_content 'ふだん'
         end
       end
@@ -32,7 +32,7 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
       context 'マッチング機能' do
         it '選択し次のページへ移動' do
           visit first_user_steps_path
-          choose('radio_enum')
+          choose('user_choice_vehicle_car' ,visible: false)
           #クリックできない
           click_button "next"
           choose('user_choice_vehicle_like')

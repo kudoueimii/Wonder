@@ -6,51 +6,55 @@ class UserStepsController < ApplicationController
   end
 
   def second
-    if session[:vehicle] || params[:user_choice][:vehicle]
+    @user_choice = UserChoice.new
+    if params[:user_choice]
       session[:vehicle] = user_choice_params[:vehicle]
-      @user_choice = UserChoice.new
     else
-      redirect_to first_user_steps_path
+      render action: :first
     end
   end
 
   def third
-    if session[:cleaning] || params[:user_choice][:cleaning]
+    @user_choice = UserChoice.new
+    if params[:user_choice]
       session[:cleaning] = user_choice_params[:cleaning]
-      @user_choice = UserChoice.new
     else
-      redirect_to second_user_steps_path
+      render action: :second
     end
   end
 
   def fourth
-    if session[:active] || params[:user_choice][:active]
+    @user_choice= UserChoice.new
+    if params[:user_choice]
       session[:active] = user_choice_params[:active]
-      @user_choice= UserChoice.new
     else
-      redirect_to third_user_steps_path
+      render action: :third
     end
   end
 
   def fifth
-    if session[:exercise] || params[:user_choice][:exercise]
+    @user_choice = UserChoice.new
+    if params[:user_choice]
       session[:exercise] = user_choice_params[:exercise]
-      @user_choice = UserChoice.new
     else
-      redirect_to fourth_user_steps_path
+      render action: :fourth
     end
   end
 
   def sixth
-    if session[:home] || params[:user_choice][:home]
+    @user_choice = UserChoice.new
+    if params[:user_choice]
       session[:home] = user_choice_params[:home]
-      @user_choice = UserChoice.new
     else
-      redirect_to fifth_user_steps_path
+      render action: :fifth
     end
   end
 
   def create
+    unless params[:user_choice]
+      @user_choice = UserChoice.new
+      render action: :sixth
+    end
     @user_choice = current_user.build_user_choice(
       vehicle: session[:vehicle],
       cleaning: session[:cleaning],
