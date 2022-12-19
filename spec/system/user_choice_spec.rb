@@ -32,7 +32,7 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
       context 'マッチング機能' do
         it '選択し次のページへ移動' do
           visit first_user_steps_path
-          choose('user_choice_vehicle_car')
+          choose('radio_enum')
           #クリックできない
           click_button "next"
           choose('user_choice_vehicle_like')
