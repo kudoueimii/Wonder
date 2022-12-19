@@ -21,26 +21,26 @@
                 <li>
                   <%= link_to search_dogs_path do %>
                     <%= image_tag('search.png', width: 30) %>
-                    <p class="logo-text">検索</p>
+                    <p class="logo-text"><%= t('application.application.Search') %></p>
                   <% end %>
                 </li>
                 <li>
                   <%= link_to new_user_session_path do %>
-                    <%= image_tag('mypage.png', width: 30, alt: 'Login') %>
-                    <p class="logo-text">マイページ</p>
+                    <%= image_tag('mypage.png', width: 30) %>
+                    <p class="logo-text"><%= t('application.application.My page') %></p>
                   <% end %>
                 </li>
                 <li>
                   <%= link_to destroy_user_session_path do %>
                     <%= image_tag('logout.png', width: 30, alt: 'Logout') %>
-                    <p class="logo-text">ログアウト</p>
+                    <p class="logo-text"><%= t('application.application.Logout') %></p>
                   <% end %>
                 </li>
               <% else %>
                 <li>
                   <%= link_to new_user_session_path do %>
                     <%= image_tag('login.png', width: 30) %>
-                    <p class="logo-text">ログイン</p>
+                    <p class="logo-text"><%= t('application.application.Login') %></p>
                   <% end %>
                 </li>
               <% end %>

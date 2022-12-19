@@ -108,7 +108,7 @@ ja:
       To spend 10-15 years of wonderful life with your dog: わんちゃんと10年15年とずっと素晴らしい日々を過ごすために、
       you must be wondering what kind of dog is the best match for you: どんなわんちゃんがあなたと相性が良いのか気になりますよね。
       Can we help you meet a wonderful family member?: 素晴らしい家族と出会うためのお手伝いに。
-      You can do a compatibility check with Wonder!:  Wonderで相性診断ができます。
+      You can do a compatibility check:  Wonderで相性診断ができます。
   session:
     new:
       Sign in: サインイン
@@ -165,3 +165,12 @@ ja:
       Show: 詳しくみる
       Search Dogs: 他のわんちゃんを探してみる
       My page: マイページ
+  application:
+    application:
+      Search: 検索
+      My page: マイページ
+      Logout: ログアウト
+      Login: ログイン
+  notice:
+    guest_login: ゲストとしてログインしました
+    admin_login: 管理者としてログインしました

@@ -8,26 +8,53 @@ en:
   user_steps:
     first:
       Notice: Which one?
+      Is there a place you would like to go with your doggy?: Is there a place you would like to go with your doggy?
+      You can take your dog on trains and bullet trains: You can take your dog on trains and bullet trains
+      The regulation size and rules for carry-ons vary from company to company: The regulation size and rules for carry-ons vary from company to company
+      Why don't you check with the place you would like to go?: Why don't you check with the place you would like to go?
       Next: Next
       Back: Back
     second:
       Notice: Which one?
+      Lots of doggies of various fur colors: Lots of doggies of various fur colors
+      Some breeds shed easily and some do not shed easily: Some breeds shed easily and some do not shed easily
+      Oops! The dog molted everywhere! Your house is covered in hair: Oops! The dog molted everywhere! Your house is covered in hair
+      Let's think about daily cleaning and dog allergies!: Let's think about daily cleaning and dog allergies!
       Next: Next
       Back: Back
     third:
       Notice: Which one?
+      Have you ever heard of sheepdogs?: 牧羊犬をご存知ですか？
+      They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,: 放牧されている羊をまとめ牧舎に連れ戻したり、迷ったヒツジを群れに連れ戻すことを行い、
+      and, They are physically strong and good at using their brains: 体力があり、頭を使うのが得意です。
+      There are other herding dogs, hounds, etc: 他にも牧畜犬や猟犬などもいます。
+      There are so many of them that are active in dog sports,: ドッグスポーツで活躍している子がたくさんいるので、
+      You may want to look into dog sports: ドッグスポーツについて調べてはいかがでしょうか。
       Next: Next
       Back: Back
     fourth:
       Notice: Which one?
+      Do you have a way to relieve stress?: Do you have a way to relieve stress?
+      Doggies can get stressed out due to lack of exercise: Doggies can get stressed out due to lack of exercise
+      It is important to take walks that are appropriate for your dog's breed: It is important to take walks that are appropriate for your dog's breed
+      Also, they are stimulated by the various smells they smell on their walks:  Also, they are stimulated by the various smells they smell on their walks
+      It is necessary to take them for a walk every day!: It is necessary to take them for a walk every day!
       Next: Next
       Back: Back
     fifth:
       Notice: Which one?
+      It is adorable when doggies and children play together: It is adorable when doggies and children play together
+      It would be wonderful if the doggie and the child could play together: It would be wonderful if the doggie and the child could play together
+      However, some breeds and personalities are not good with children: However, some breeds and personalities are not good with children
+      Can you think of any dog breeds that are good with children?: Can you think of any dog breeds that are good with children?
       Next: Next
       Back: Back
     sixth:
       Notice: Which one?
+      It would be wonderful to have a doggy waiting for you when you get home:  It would be wonderful to have a doggy waiting for you when you get home
+      In many cases, there are not many rental apartments that allow pets,: In many cases, there are not many rental apartments that allow pets,
+      only small dogs are allowed, and the size of the dog is specified: only small dogs are allowed, and the size of the dog is specified
+      It is important to check the size of the adult dog of the breed you want to keep: It is important to check the size of the adult dog of the breed you want to keep
       Next: Next
       Back: Back
   homes:
@@ -35,7 +62,19 @@ en:
       Japanese: 日本語
       English: English
       page: Home page
-      Index: Doggies list
+      This is for those of you who are about to welcome a doggy into your family: This is for those of you who are about to welcome a doggy into your family
+      In Japan, you can find about 200 different breeds of doggies!: In Japan, you can find about 200 different breeds of doggies!
+      They range from large dogs weighing over 80 kg to small dogs weighing as little as 2 kg,: They range from large dogs weighing over 80 kg to small dogs weighing as little as 2 kg,
+      They Also Like To Be Physically Active And Get Along Well With Small Children: They Also Like To Be Physically Active And Get Along Well With Small Children
+      So, what kind of dog will you choose?: So, what kind of dog will you choose?
+      Currently, some dogs are being abandoned: Currently, some dogs are being abandoned
+      This problem is caused by a mismatch: This problem is caused by a mismatch
+      between the owner's lifestyle and environment, and the dog's personality:  between the owner's lifestyle and environment, and the dog's personality
+      To spend 10-15 years of wonderful life with your dog: To spend 10-15 years of wonderful life with your dog
+      you must be wondering what kind of dog is the best match for you: you must be wondering what kind of dog is the best match for you
+      Can we help you meet a wonderful family member?: Can we help you meet a wonderful family member?
+      You can do a compatibility check: You can do a compatibility check
+      with Wonder!: with Wonder!
   registrations:
     edit:
       Edit: Edit
@@ -48,6 +87,7 @@ en:
     show:
       dog show: More info
       Index: Doggies list
+      Back: Back
     search:
       Search: Search
       Index: Doggies list
@@ -63,3 +103,6 @@ en:
       Show: more info
       Search Dogs: Search Doggies
       page: My page
+  notice:
+    guest_login: Login as guest
+    admin_login: login as admin

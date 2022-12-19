@@ -14,9 +14,9 @@ div.text {
 }
 
 .title {
+  display: inline-block;
   background: linear-gradient(transparent 70%, #80C0A0 70%);
   font-size: 28px;
-  width: 820px;
 }
 
 p {
@@ -29,9 +29,9 @@ h5 {
 }
 
 .conclusion {
+  display: inline-block;
   margin-top: 20px;
   background: linear-gradient(transparent 70%, #80C0A0 70%);
-  width: 580px;
 }
 
 .link a {
