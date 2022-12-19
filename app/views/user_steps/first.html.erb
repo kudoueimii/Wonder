@@ -3,15 +3,15 @@
   <p class="enum-choice"><%= t('.What do you ride?')%></p>
 
   <div class="enum-choice">
-    <%= form.radio_button(:vehicle, :car, class: "radio-inline__input" )%>
-    <%= form.label(:vehicle, (t'.Car'), value: "car", class: "radio-inline__label") %>
+    <%= form.radio_button(:vehicle, :car, class: "radio-inline__input", id: "radio_enum") %>
+    <%= form.label(:vehicle, (t'.Car'), value: "car", class: "radio-inline__label", id: "enum") %>
     <%= form.radio_button(:vehicle, :train, class: "radio-inline__input" )%>
     <%= form.label(:vehicle, (t'.Train'), value: "train", class: "radio-inline__label") %>
   </div>
 
 
   <div class="actions">
-    <%= form.submit (t '.Next'), class: "button004" %>
+    <%= form.submit (t '.Next'), class: "button004", id: "next" %>
   </div>
 
   <div class="step_back">
@@ -19,10 +19,10 @@
   </div>
 
   <div class="tip">
-    <p>わんちゃんとお出かけしたいところはありますか？</p>
-    <p>電車や新幹線でも一緒にお出かけができます。</p>
-    <p>キャリーの規定サイズやルールは会社により異なります。</p>
-    <p>お出かけしたい場所と一緒に調べてみてはいかがですか？</p>
+    <p><%= t('.Is there a place you would like to go with your doggy? ') %> </p>
+    <p><%= t('.You can take your dog on trains and bullet trains') %></p>
+    <p><%= t('.The regulation size and rules for carry-ons vary from company to company') %></p>
+    <p><%= t('.Why don\'t you check with the place you would like to go?') %></p>
   </div>
   
 <% end %>

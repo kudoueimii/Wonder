@@ -8,7 +8,7 @@ RSpec.describe 'ユーザー管理機能', type: :system do
         fill_in "user_email",with: 'testuser@example.com'
         fill_in "user_password",with: 'testuser'
         fill_in "user_password_confirmation",with: 'testuser'
-        click_on "sign_in"
+        click_button "commit"
         expect(page).to have_content 'ふだんよく乗るのは？'
       end
     end 
@@ -27,7 +27,7 @@ RSpec.describe 'ユーザー管理機能', type: :system do
       fill_in "user_name",with: 'testuser'
       fill_in "user_email",with: 'testuser@example.com'
       fill_in "user_password",with: 'testuser'
-      click_on "Log in"
+      click_on "commit"
     end
     context 'ログインした場合' do
       it 'マイページの画面に飛ぶ' do
