@@ -11,19 +11,18 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
       click_on "commit"
     end
     describe do
-      context 'セッション機能' do
+      context 'マッチング機能' do
         it '次のページへ移動' do
           visit first_user_steps_path
-          car = find("user_choice[car]", visible: false)
-          car.click
-          click_button "next"
-          expect(page).to have_content 'こまめな掃除が'
+          choose('user_choice_vehicle_car')
+          click_button "commit"
+          expect(page).to have_content 'こまめなお掃除が'
         end
       end
-      context 'セッション機能' do
+      context 'マッチング機能' do
         it '次のページへ移動' do
           visit first_user_steps_path
-          click_button "next"
+          click_button "commit"
           expect(page).to have_content 'ふだん'
         end
       end
@@ -32,19 +31,18 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
       context 'マッチング機能' do
         it '選択し次のページへ移動' do
           visit first_user_steps_path
-          choose('user_choice_vehicle_car' ,visible: false)
-          #クリックできない
-          click_button "next"
-          choose('user_choice_vehicle_like')
-          click_button "next"
-          choose('user_choice_vehicle_like')
-          click_button "next"
-          choose('user_choice_vehicle_like')
-          click_button "next"
-          choose('user_choice_vehicle_kids')
-          click_button "next"
-          choose('user_choice_vehicle_owned')
-          click_button "next"
+          choose('user_choice_vehicle_car')
+          click_button "commit"
+          choose('user_choice_cleaning_like')
+          click_button "commit"
+          choose('user_choice_active_like')
+          click_button "commit"
+          choose('user_choice_exercise_like')
+          click_button "commit"
+          choose('user_choice_home_kids')
+          click_button "commit"
+          choose('user_choice_house_owned')
+          click_button "commit"
           expect(page).to have_content '100'
         end
       end
