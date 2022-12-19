@@ -20,7 +20,7 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
         end
       end
       context 'マッチング機能' do
-        it '次のページへ移動' do
+        it '次のページ移動しない' do
           visit first_user_steps_path
           click_button "commit"
           expect(page).to have_content 'ふだん'
@@ -29,7 +29,7 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
     end
     describe do
       context 'マッチング機能' do
-        it '選択し次のページへ移動' do
+        it '選択し次のページへ移動、相性結果へ' do
           visit first_user_steps_path
           choose('user_choice_vehicle_car')
           click_button "commit"

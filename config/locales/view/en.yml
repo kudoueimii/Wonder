@@ -9,6 +9,15 @@ en:
       Matching_Results: Matching Results
       Edit: Edit
       Choices: Choices
+  user_choices:
+    index:
+      Answer: Answer
+      vehicle: Vehicle
+      cleaning: Cleaning
+      active: active
+      exercise: exercise
+      home: home
+      house: house
   user_steps:
     first:
       What do you ride?: What do you ride?
@@ -111,9 +120,13 @@ en:
       Sign up: Sign up
       password_confirmation: password confirmation
   dogs:
-    show:
-      dog show: More info
-      Index: Doggies list
+     show:
+      dog show: more info
+      Name: Name
+      Size: Size
+      Feature: Feature
+      Active: Active
+      Cleaning: Cleaning
       Back: Back
     search:
       Let find doggies: Let find doggies
