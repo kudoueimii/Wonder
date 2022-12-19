@@ -15,6 +15,10 @@ ja:
       Notice: 当てはまる方を選んでください
       Car: 車
       Train: 電車
+      Is there a place you would like to go with your doggy?: わんちゃんとお出かけしたいところはありますか？
+      You can take your dog on trains and bullet trains: 電車や新幹線でも一緒にお出かけができます
+      The regulation size and rules for carry-ons vary from company to company: キャリーの規定サイズやルールは会社により異なります
+      Why don't you check with the place you would like to go?: お出かけしたい場所と一緒に調べてみてはいかがですか？
       Next: 次へ
       Back: 戻る
     second:
@@ -22,6 +26,10 @@ ja:
       Notice: 当てはまる方を選んでください
       Like: 好き
       Dislike: 苦手
+      Lots of doggies of various fur colors: さまざまな毛色のわんちゃんがたくさん。
+      Some breeds shed easily and some do not shed easily: 毛が抜けやすい犬種や、毛が抜けにくい犬種がいます。
+      Oops! The dog molted everywhere! Your house is covered in hair: 部屋中毛だらけなんてことも。
+      Let's think about daily cleaning and dog allergies!: 日頃のお掃除や、犬アレルギーについても考えてみましょう
       Next: 次へ
       Back: 戻る
     third:
@@ -29,6 +37,12 @@ ja:
       Notice: 当てはまる方を選んでください
       Like: 好き
       Dislike: 苦手
+      Have you ever heard of sheepdogs?: 牧羊犬をご存知ですか？
+      They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,: 放牧されている羊をまとめ牧舎に連れ戻したり、迷ったヒツジを群れに連れ戻すことを行い、
+      and, They are physically strong and good at using their brains: 体力があり、頭を使うのが得意です。
+      There are other herding dogs, hounds, etc: 他にも牧畜犬や猟犬などもいます。
+      There are so many of them that are active in dog sports,: ドッグスポーツで活躍している子がたくさんいるので、
+      You may want to look into dog sports: ドッグスポーツについて調べてはいかがでしょうか。
       Next: 次へ
       Back: 戻る
     fourth:
@@ -36,6 +50,11 @@ ja:
       Notice: 当てはまる方を選んでください
       Like: 好き
       Dislike: 苦手
+      Do you have a way to relieve stress?: ストレス発散方法はありますか？
+      Doggies can get stressed out due to lack of exercise: わんちゃんは、運動不足でストレスが溜まることも。
+      It is important to take walks that are appropriate for your dog's breed: 犬種にあったお散歩の時間が大切です。
+      Also, they are stimulated by the various smells they smell on their walks: また、散歩でいろいろな匂いを嗅いで刺激を受けています。
+      It is necessary to take them for a walk every day!: 毎日お散歩に連れていくことが必要です
       Next: 次へ
       Back: 戻る
     fifth:
@@ -43,6 +62,10 @@ ja:
       Notice: 当てはまる方を選んでください
       Kids: 小さいお子さんがいる
       None: 小さいお子さんはいない
+      It is adorable when doggies and children play together: わんちゃんとこどもが遊んでいると可愛らしいですね。
+      It would be wonderful if the doggie and the child could play together: わんちゃんとお子さんが仲良く遊べたら素敵です。
+      However, some breeds and personalities are not good with children: しかし、犬種や性格によっては子どもが苦手なわんちゃんもいます。
+      Can you think of any dog breeds that are good with children?: 子どもと相性の良い犬種、思いつく犬種はありますか？
       Next: 次へ
       Back: 戻る
     sixth:
@@ -50,6 +73,10 @@ ja:
       Notice: 当てはまる方を選んでください
       Owned: 持ち家
       Rent: 賃貸
+      It would be wonderful to have a doggy waiting for you when you get home: お家に帰ったら、わんちゃんが待っている暮らしは素敵ですよね。
+      In many cases, there are not many rental apartments that allow pets,: 賃貸で、ペット可の物件が少なかったり、
+      only small dogs are allowed, and the size of the dog is specified: 小型犬のみとサイズが指定されていることが多いです。
+      It is important to check the size of the adult dog of the breed you want to keep: 飼いたい犬種の成犬時のサイズの確認は大切ですね。
       Next: 次へ
       Back: 戻る
   user_choices:

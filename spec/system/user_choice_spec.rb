@@ -8,22 +8,21 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
       fill_in "user_name", with: 'testuser'
       fill_in "user_email",	with: 'testuser@example.com'
       fill_in "user_password",	with: 'testuser'
-      click_on "Log in"
+      click_on "commit"
     end
     describe do
       context 'セッション機能' do
         it '次のページへ移動' do
           visit first_user_steps_path
           choose('user_choice_vehicle_car')
-          #クリックできない
-          click_button "次へ"
+          click_button "next"
           expect(page).to have_content 'こまめな掃除が'
         end
       end
       context 'セッション機能' do
         it '次のページへ移動' do
           visit first_user_steps_path
-          click_button "次へ"
+          click_button "next"
           #コントローラーエラー
           expect(page).to have_content 'ふだん'
         end
@@ -35,17 +34,17 @@ RSpec.describe 'ウィザード形式の選択', type: :system do
           visit first_user_steps_path
           choose('user_choice_vehicle_car')
           #クリックできない
-          click_button "次へ"
+          click_button "next"
           choose('user_choice_vehicle_like')
-          click_button "次へ"
+          click_button "next"
           choose('user_choice_vehicle_like')
-          click_button "次へ"
+          click_button "next"
           choose('user_choice_vehicle_like')
-          click_button "次へ"
+          click_button "next"
           choose('user_choice_vehicle_kids')
-          click_button "次へ"
+          click_button "next"
           choose('user_choice_vehicle_owned')
-          click_button "次へ"
+          click_button "next"
           expect(page).to have_content '100'
         end
       end

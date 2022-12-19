@@ -1,4 +1,4 @@
-en;
+en:
   enums:
     dog:
       size:
@@ -9,17 +9,18 @@ en;
         car: Car
         train: Train
       cleaning:
-        like: '季節による換毛気軽ため、抜け毛が多い。'
-        dislike: 'シングルコートのため、抜け毛は少ない。'
+        like: 'Loses a lot of hair due to seasonal shedding.'
+        dislike: 'Single coat, little shedding.'
       active:
-        like: '優れた運動能力がある。お散歩や運動時間の確保が必要。'
-        dislike: '多くの運動は必要としないが、適度な遊びが必要'
+        like: 'Excellent athletic ability. Needs walks and exercise time'
+        dislike: 'Does not require a lot of exercise,
+        but does need moderate play.'
       exercise:
-        like: '１時間以上の散歩が必要。'
+        like: 'Needs a walk of at least one hour'
         dislike: ''
       home:
-        kids: '子どもと仲良く遊べ、愛情深く、穏やか。'
-        none: 'しつけをきちんと行う必要がある。'
+        kids: 'Playful, affectionate and gentle with children.'
+        none: 'Needs to be properly trained'
       house:
         owned: Owned
         rent: Rent

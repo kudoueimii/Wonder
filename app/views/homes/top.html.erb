@@ -13,7 +13,7 @@
     <h1 class="conclusion"><%= t('.You can do a compatibility check with Wonder!') %></h1>
 
   <div class="link">
-    <%= link_to t('.Sign In'),  new_user_registration_path %>
+    <%= link_to t('.Sign In'),  new_user_registration_path, id: "signup" %>
   </div>
   <br>
   <% unless user_signed_in? %>
