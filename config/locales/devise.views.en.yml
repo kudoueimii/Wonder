@@ -2,11 +2,22 @@ en:
   devise:
     registrations:
       edit:
+        Back: Back
         Cancel: Cancel
         Edit: Edit
+        leave blank: leave blank if you don't want to change it
       new:
+        name: Name
+        characters minimum: characters minimum
         Sign up: Sign up
     sessions:
       new:
+        name: Name
         Sign in: Sign in
+    shared:
+      links:
+        back: Back
+        Forgot your password?: Forgot your password?
+        Log in: Log in
+        Sign up: Sign up
    

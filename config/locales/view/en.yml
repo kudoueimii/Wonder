@@ -2,12 +2,19 @@ en:
   users:
     show:
       Page: My page
+      name: Name
+      email: Email
       Index: Doggies list
       Matching: Matching
       Matching_Results: Matching Results
+      Edit: Edit
+      Choices: Choices
   user_steps:
     first:
+      What do you ride?: What do you ride?
       Notice: Which one?
+      Car: Car
+      Train: Train
       Is there a place you would like to go with your doggy?: Is there a place you would like to go with your doggy?
       You can take your dog on trains and bullet trains: You can take your dog on trains and bullet trains
       The regulation size and rules for carry-ons vary from company to company: The regulation size and rules for carry-ons vary from company to company
@@ -15,7 +22,10 @@ en:
       Next: Next
       Back: Back
     second:
+      Do you like cleaning up?: Do you like cleaning up?
       Notice: Which one?
+      Like: Like
+      Dislike: Dislike
       Lots of doggies of various fur colors: Lots of doggies of various fur colors
       Some breeds shed easily and some do not shed easily: Some breeds shed easily and some do not shed easily
       Oops! The dog molted everywhere! Your house is covered in hair: Oops! The dog molted everywhere! Your house is covered in hair
@@ -23,7 +33,10 @@ en:
       Next: Next
       Back: Back
     third:
+      Active day off: Active day off
       Notice: Which one?
+      Like: Like
+      Dislike: Dislike
       Have you ever heard of sheepdogs?: Have you ever heard of sheepdogs?
       They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,: They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,
       and, They are physically strong and good at using their brains: and, They are physically strong and good at using their brains
@@ -33,7 +46,10 @@ en:
       Next: Next
       Back: Back
     fourth:
+      Exercise: Exercise
       Notice: Which one?
+      Like: Like
+      Dislike: Dislike
       Do you have a way to relieve stress?: Do you have a way to relieve stress?
       Doggies can get stressed out due to lack of exercise: Doggies can get stressed out due to lack of exercise
       It is important to take walks that are appropriate for your dog's breed: It is important to take walks that are appropriate for your dog's breed
@@ -42,7 +58,10 @@ en:
       Next: Next
       Back: Back
     fifth:
+      About family: About family
       Notice: Which one?
+      Kids: Kids
+      None: None
       It is adorable when doggies and children play together: It is adorable when doggies and children play together
       It would be wonderful if the doggie and the child could play together: It would be wonderful if the doggie and the child could play together
       However, some breeds and personalities are not good with children: However, some breeds and personalities are not good with children
@@ -50,7 +69,10 @@ en:
       Next: Next
       Back: Back
     sixth:
+      About house: About house
       Notice: Which one?
+      Owned: Owned
+      Rent: Rent
       It would be wonderful to have a doggy waiting for you when you get home:  It would be wonderful to have a doggy waiting for you when you get home
       In many cases, there are not many rental apartments that allow pets,: In many cases, there are not many rental apartments that allow pets,
       only small dogs are allowed, and the size of the dog is specified: only small dogs are allowed, and the size of the dog is specified
@@ -84,6 +106,7 @@ en:
       Edit: Edit
       leave blank: leave blank if you don't want to change it
       Cancel: Cancel my account
+      Back: Back
     new:
       Sign up: Sign up
       password_confirmation: password confirmation
@@ -93,6 +116,14 @@ en:
       Index: Doggies list
       Back: Back
     search:
+      Let find doggies: Let find doggies
+      Breed: Breed
+      Size: Size
+      Low-shedding: Low-shedding
+      Gentle: Gentle
+      Dog sport: Dog sport
+      Short walking: Short walking
+      Rent house: Rent house
       Search: Search
       Index: Doggies list
     search_results:
@@ -100,6 +131,9 @@ en:
       Show: more info
       Index: Doggies list
     matching_results:
+      Matching results: Matching results
+      Name: Name
+      Matching: Matching
       Image: Picture
       Show: more info
     index:
