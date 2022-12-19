@@ -91,7 +91,7 @@ en:
   homes:
     top:
       Top page: Top page
-      Sign In: Sign In
+      Sign Up: Sign Up
       Japanese: 日本語
       English: English
       page: Home page
@@ -117,10 +117,17 @@ en:
       Cancel: Cancel my account
       Back: Back
     new:
+      name: name
+      email: email
+      password: password
+      password_confirmation: password_confirmation
+      characters minimum: characters minimum
+      sign_in: sign in
+      Log in:
       Sign up: Sign up
       password_confirmation: password confirmation
   dogs:
-     show:
+    show:
       dog show: more info
       Name: Name
       Size: Size
@@ -140,6 +147,7 @@ en:
       Search: Search
       Index: Doggies list
     search_results:
+      Search results: Search results
       Search Dogs: Search Doggies
       Show: more info
       Index: Doggies list
@@ -153,7 +161,7 @@ en:
       Dogs: Doggies
       Show: more info
       Search Dogs: Search Doggies
-      page: My page
+      My page: My page
   application:
     application:
       Search: Search
