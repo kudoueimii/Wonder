@@ -24,8 +24,7 @@ Ruby on Rails 6.0.3
 - お気に入り機能
 
 ## カリキュラム外の技術
-- The Dog API
-- gem wicked 
+- The Dog API 
 
 ## 実行手順
 お使いのPCにredisがインストールされていない場合はredisをインストールして起動
