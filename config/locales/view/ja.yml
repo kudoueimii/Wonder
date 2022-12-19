@@ -1,4 +1,6 @@
 ja:
+  Dogs: &dogs
+    Yorkshire Terrier: ヨークシャテリア
   users:
     show:
       Page: マイページ
@@ -129,6 +131,7 @@ ja:
       Log in: ログイン
   dogs:
     show:
+      <<: *dogs
       dog show: わんちゃんについて詳しく
       Name: 犬種名
       Size: 大きさ
@@ -148,6 +151,7 @@ ja:
       Search: 検索
       Index: ワンちゃんの一覧ページ
     search_results:
+      <<: *dogs
       Search Dogs: わんちゃんを探してみる
       Search results: 検索結果
       Show: 詳しくみる

@@ -1,9 +1,9 @@
 <h1><%=t('.Search results')%></h1>
   <div class="card-deck">
     <% @results.each do |dog| %>
-      <div class="card" flex-direction:row>
+      <div class="card w-50" flex-direction:row>
         <div class="card-header">
-          <h4><%= dog.name %></h4>
+          <h4><%= t('.' + dog.name) %></h4>
         </div>
         <div class="card-body">
           <%= image_tag dog.image_url, size: '300x250' %>

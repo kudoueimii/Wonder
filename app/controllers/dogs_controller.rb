@@ -20,6 +20,7 @@ class DogsController < ApplicationController
   end
 
   def search
+    @results = @q.result
   end
   
   def search_results
