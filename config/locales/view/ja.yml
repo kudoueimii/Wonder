@@ -129,6 +129,7 @@ ja:
       Log in: ログイン
   dogs:
     show:
+      dog show: わんちゃんについて詳しく
       Name: 犬種名
       Size: 大きさ
       Feature: 特徴
