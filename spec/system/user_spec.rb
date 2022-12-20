@@ -1,17 +1,19 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 RSpec.describe 'ユーザー管理機能', type: :system do
   describe 'ユーザー新規登録機能' do
     context 'ユーザーがsign upした場合' do
       it 'user_stepの画面に遷移' do
         visit new_user_registration_path
-        fill_in "user_name",with: 'testuser'
-        fill_in "user_email",with: 'testuser@example.com'
-        fill_in "user_password",with: 'testuser'
-        fill_in "user_password_confirmation",with: 'testuser'
-        click_button "commit"
+        fill_in 'user_name', with: 'testuser'
+        fill_in 'user_email', with: 'testuser@example.com'
+        fill_in 'user_password', with: 'testuser'
+        fill_in 'user_password_confirmation', with: 'testuser'
+        click_button 'commit'
         expect(page).to have_content 'ふだんよく乗るのは？'
       end
-    end 
+    end
     context 'ユーザーがログインせずに、検索画面に飛ぼうとした時' do
       it 'ログイン画面に遷移する' do
         visit new_user_session_path
@@ -24,19 +26,19 @@ RSpec.describe 'ユーザー管理機能', type: :system do
     before do
       FactoryBot.create(:user)
       visit new_user_session_path
-      fill_in "user_name",with: 'testuser'
-      fill_in "user_email",with: 'testuser@example.com'
-      fill_in "user_password",with: 'testuser'
-      click_on "commit"
+      fill_in 'user_name', with: 'testuser'
+      fill_in 'user_email', with: 'testuser@example.com'
+      fill_in 'user_password', with: 'testuser'
+      click_on 'commit'
     end
     context 'ログインした場合' do
       it 'マイページの画面に飛ぶ' do
-      expect(page).to have_content 'マイページ'
+        expect(page).to have_content 'マイページ'
       end
     end
     context 'ログアウトした場合' do
       it 'ログアウトすることができる' do
-        click_on "Logout"
+        click_on 'Logout'
         expect(page).to have_content 'ログアウト'
       end
     end

@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     registrations: 'users/registrations',
     sessions: 'users/sessions'
   }
-  
+
   devise_scope :user do
     post 'users/guest_sign_in', to: 'users/sessions#guest_sign_in'
     post 'users/guest_admin_sign_in', to: 'users/sessions#guest_admin_sign_in'
@@ -13,7 +13,6 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
   root 'homes#top'
-
 
   resources :dogs do
     collection do
@@ -39,7 +38,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show]
 
-  resources :favorites, only: [:create, :destroy]
+  resources :favorites, only: %i[create destroy]
 
   resources :posts
 end

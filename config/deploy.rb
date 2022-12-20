@@ -1,16 +1,16 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.16.0"
+lock '~> 3.16.0'
 
-set :application, "Wonder"
-set :repo_url, "git@github.com:kudoueimii/Wonder.git"
+set :application, 'Wonder'
+set :repo_url, 'git@github.com:kudoueimii/Wonder.git'
 
 set :branch, ENV['BRANCH'] || 'master'
 
-set :deploy_to, "/var/www/Wonder"
+set :deploy_to, '/var/www/Wonder'
 
-set :linked_files, %w{.env config/database.yml config/master.key}
+set :linked_files, %w[.env config/database.yml config/master.key]
 
-set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
+set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets public/uploads]
 
 set :keep_releases, 5
 
@@ -27,7 +27,7 @@ namespace :deploy do
 
   desc 'Create database'
   task :db_create do
-    on roles(:db) do |host|
+    on roles(:db) do |_host|
       with rails_env: fetch(:rails_env) do
         within current_path do
           execute :bundle, :exec, :rake, 'db:create'

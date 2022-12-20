@@ -8,7 +8,7 @@ class Users::SessionsController < Devise::SessionsController
     sign_in user
     redirect_to user_path(current_user.id), notice: t('notice.guest_login')
   end
-  
+
   def guest_admin_sign_in
     user = User.guest_admin
     sign_in user
@@ -34,6 +34,6 @@ class Users::SessionsController < Devise::SessionsController
 
   # If you have extra params to permit, append them to the sanitizer.
   def configure_sign_in_params
-    devise_parameter_sanitizer.permit(:sign_in, keys: [:email, :icon, :icon_cache])
+    devise_parameter_sanitizer.permit(:sign_in, keys: %i[email icon icon_cache])
   end
 end

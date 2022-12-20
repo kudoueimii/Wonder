@@ -10,4 +10,3 @@ class FavoritesController < ApplicationController
     redirect_to dog_path(dog)
   end
 end
-

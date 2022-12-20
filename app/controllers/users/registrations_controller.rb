@@ -34,9 +34,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   end
 
   def ensure_normal_user
-    if resource.email == 'guest@sample.com'
-      redirect_to root_path, alert: 'ゲストユーザーは削除できません。'
-    end
+    redirect_to root_path, alert: 'ゲストユーザーは削除できません。' if resource.email == 'guest@sample.com'
   end
   # PUT /resource
   # def update
@@ -65,25 +63,25 @@ class Users::RegistrationsController < Devise::RegistrationsController
 
   # If you have extra params to permit, append them to the sanitizer.
   def configure_sign_up_params
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:attribute, :icon, :icon_cache])
+    devise_parameter_sanitizer.permit(:sign_up, keys: %i[attribute icon icon_cache])
   end
 
   # If you have extra params to permit, append them to the sanitizer.
   def configure_account_update_params
-    devise_parameter_sanitizer.permit(:account_update, keys: [:attribute, :icon, :icon_cache])
+    devise_parameter_sanitizer.permit(:account_update, keys: %i[attribute icon icon_cache])
   end
 
   # The path used after sign up.
-  def after_sign_up_path_for(resource)
+  def after_sign_up_path_for(_resource)
     first_user_steps_url
   end
 
-  def after_update_path_for(resource)
+  def after_update_path_for(_resource)
     user_url(current_user)
   end
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up,keys:[:name, :email, :icon, :icon_cache])
+    devise_parameter_sanitizer.permit(:sign_up, keys: %i[name email icon icon_cache])
   end
   # The path used after sign up for inactive accounts.
   # def after_inactive_sign_up_path_for(resource)
