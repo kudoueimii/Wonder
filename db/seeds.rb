@@ -1,7 +1,7 @@
 # frozen_string_literal:    true
 require 'csv'
 
-CSV.foreach('db/sample_list2.csv', headers: true) do |row|
+CSV.foreach('db/Dogs_list.csv', headers: true) do |row|
   Dog.create(
     name:      row[0,],
     size:      row[1].to_i,

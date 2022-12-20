@@ -1,12 +1,180 @@
 ja:
   Dogs: &dogs
-    Yorkshire Terrier: ヨークシャテリア
+    Affenpinscher:	アーフェンピンシャー
+    Afghan Hound:	アフガン・ハウンド
+    Airedale Terrier:	エアデール・テリア
+    Akbash Dog:	アクバシュ
+    Akita:	秋田犬
+    Alaskan Husky:	アラスカン・ハスキー
+    Alaskan Malamute:	アラスカン・マラミュート
+    American Eskimo Dog:	アメリカン・エスキモー・ドッグ
+    American Eskimo Dog (Miniature):	アメリカン・エスキモー・ドッグ(ミニチュア)
+    American Foxhound:	アメリカン・フォックスハウンド
+    American Pit Bull Terrier:	アメリカン・ピット・ブル・テリア
+    American Staffordshire Terrier:	アメリカン・スタッフォードシャー・テリア
+    American Water Spaniel:	アメリカン・ウォーター・スパニエル
+    Anatolian Shepherd Dog:	アナトリアン・シェパード・ドッグ
+    Appenzeller Sennenhund:	アッペンツェラー・キャトル・ドッグ
+    Australian Cattle Dog:	オーストラリアン・キャトル・ドッグ 
+    Australian Kelpie:	オーストラリアン・ケルピー
+    Australian Shepherd:	オーストラリアン・シェパード
+    Australian Terrier:	オーストラリアン・テリア
+    Azawakh:	アザワク
+    Barbet:	バルビー
+    Basenji:	バセンジー
+    Basset Bleu de Gascogne:	バセー・ブルー・ド・ガスコーニュ
+    Basset Hound:	バセット・ハウンド
+    Beagle:	ビーグル
+    Bearded Collie:	ビアデッド・コリー
+    Beauceron:	ボースロン
+    Bedlington Terrier:	ベドリントン・テリア
+    Belgian Malinois:	ベルジアン・シェパード・ドッグ
+    Belgian Tervuren:	ベルジアン・シェパード・ドッグ・タービュレン
+    Bernese Mountain Dog:	バーニーズ・マウンテン・ドッグ
+    Bichon Frise:	ビション・フリーゼ
+    Black and Tan Coonhound:	ブラック・アンド・タン・クーンハウンド
+    Bloodhound:	ブラッドハウンド
+    Bluetick Coonhound:	ブルーティック・クーンハウンド
+    Border Collie:	ボーダー・コリー
+    Border Terrier:	ボーダー・テリア
+    Borzoi:	ボルゾイ
+    Boston Terrier:	ボストン・テリア
+    Bouvier des Fland res:	ブービエ・デ・フランダース
+    Boxer:	ボクサー
+    Boykin Spaniel:	ボイキン・スパニエル
+    Bracco Italiano:	ブラッコ・イタリアーノ
+    Briard:	ブリアード
+    Brittany:	ブリタニー・スパニエル
+    Bull Terrier:	ブル・テリア
+    Bull Terrier: (Miniature)	ミニチュア・ブル・テリア
+    Bullmastiff:	ブルマスティフ
+    Cairn Terrier:	ケアーン・テリア
+    Cane Corso:	イタリアン・コルソ・ドッグ
+    Catahoula Leopard Dog:	カタフーラ・レパード・ドッグ
+    Caucasian Shepherd (Ovcharka):	コーカシアン・シェパード・ドッグ
+    Cavalier King Charles Spaniel:	キャバリア・キング・チャールズ・スパニエル
+    Chesapeake Bay Retriever:	チェサピーク・ベイ・レトリーバー
+    Chinese Crested:	チャイニーズ・クレステッド・ドッグ
+    Chinese Shar-Pei:	シャー・ペイ
+    Chihuahua:	チワワ
+    Chinook:	チヌーク
+    Chow Chow:	チャウチャウ
+    Clumber Spaniel:	クランバー・スパニエル
+    Cocker Spaniel:	アメリカン・コッカー・スパニエル
+    Cocker Spaniel: (American)	アメリカン・コッカー・スパニエル
+    Coton de Tulear:	コトン・ド・テュレアール
+    Dalmatian:	ダルメシアン
+    Doberman Pinscher:	ドーベルマン
+    Dahshound:	ダックスフント
+    Dogo Argentino:	ドゴ・アルヘンティーノ
+    Dutch Shepherd:	ダッチ・シェパード
+    English Setter:	イングリッシュ・セター
+    English Shepherd:	イングリッシュ・シェパード・ドッグ
+    English Springer Spaniel:	イングリッシュ・スプリンガー・スパニエル
+    English Toy Spaniel:	イングリッシュ・トイ・スパニエル
+    English Toy Terrier:	イングリッシュ･トイ･テリア
+    Entlebuche Cattle Dog:	エントレブッハー・キャトル・ドッグ
+    Eurasier:	ユーラシア
+    Field Spaniel:	フィールド・スパニエル
+    Finnish Lapphund:	フィニッシュ・ラップフンド
+    Finnish Spitz:	フィニッシュ・スピッツ
+    French Bulldog:	フレンチ・ブルドッグ
+    German Pinscher:	ジャーマン・ピンシャー
+    German Shepherd Dog:	ジャーマンシェパード
+    German Shorthaired Pointer:	ジャーマン・ショートヘアード・ポインター
+    Giant Schnauzer:	ジャイアント・シュナウザー
+    Glen of Imaal Terrier:	グレン・オブ・イマール・テリア
+    Golden Retriever:	ゴールデン・レトリバー
+    Gordon Setter:	ゴードン・セッター
+    Great Dane:	グレート・デン
+    Great Pyrenees:	グレート・ピレニーズ
+    Greyhound:	グレイハウンド
+    Griffon Bruxellois:	ブリュッセル・グリフォン
+    Harrier:	ハーリア
+    Havanese:	ハバニーズ
+    Ibizan Hound:	イビザン・ハウンド
+    Irish Setter:	アイリッシュ・セッター
+    Irish Terrier:	アイリッシュ・テリア
+    Irish Wolfhound:	アイリッシュ・ウルフハウンド
+    Italian Greyhound:	イタリアン・グレイハウンド
+    Japanese Chin:	狆
+    Japanese Spitz:	スピッツ
+    Keeshond:	キースホンド
+    Komondor:	コモンドール
+    Kooikerhondje:	コーイケルホンディエ 
+    Kuvasz:	クーバース
+    Labrador Retriever:	ラブラドール・レトリバー
+    Lagotto Romagnolo:	ロマーニョ・ウォーター・ドッグ
+    Lancashire Heeler:	ランカシャー・ヒーラー
+    Leonberger:	レオンベルガー
+    Lhasa Apso:	ラサ・アプソ
+    Maltese:	マルチーズ
+    Miniature American Shepherd:	ミニチュア・オーストラリアン・シェパード
+    Miniature Pinscher:	ミニチュア・ピンシャー
+    Miniature Schnauzer:	ミニチュア・シュナウザー
+    Newfoundland:	ニューファンドランド
+    Norfolk Terrier:	ノーフォーク・テリア
+    Norwegian Elkhound:	ノルウェジアン・エルクハウンド・グレー
+    Norwich Terrier:	ノーリッチ・テリア
+    Nova Scotia Duck Tolling Retriever:	ノヴァ・スコシア・ダック・トーリング・レトリーバー
+    Old English Sheepdog:	オールド・イングリッシュ・シープドッグ
+    Papillon:	パピヨン
+    Pekingese:	ペキニーズ
+    Pharaoh Hound:	ファラオ・ハウンド
+    Pomeranian:	ポメラニアン
+    Poodle (Miniature):	ミニチュアプードル
+    Poodle (Toy):	トイプードル
+    Pug:	パグ
+    Puli:	プーリー
+    Pumi:	プーミー
+    Rat Terrier:	ラット・テリア
+    Redbone Coonhound:	レッドボーン・クーンハウンド
+    Rhodesian Ridgeback:	ローデシアン・リッジバック
+    Rottweiler:	ロットワイラー
+    Russian Toy:	ロシアン・トイ・テリア 
+    Saint Bernard:	セント・バーナード
+    Saluki:	サルーキ
+    Samoyed:	サモエド
+    Schipperke:	スキッパーキ
+    Scottish Deerhound:	スコティッシュ・ディアハウンド
+    Scottish Terrier:	スコティッシュ・テリア
+    Shetland Sheepdog:	シェットランド シープドッグ
+    Shiba Inu:	柴犬
+    Shih Tzu:	シー・ズー
+    Shiloh Shepherd:	シャイロ・シェパード
+    Siberian Husky:	シベリアン ハスキー
+    Silky Terrier:	シルキー テリア
+    Smooth Fox Terrier:	スムース・フォックス・テリア
+    Soft Coated Wheaten Terrier:	ソフトコーテッド・ウィートン・テリア
+    Spanish Water Dog:	スパニッシュ・ウォーター・ドッグ
+    Spinone Italiano:	スピノーネ・イタリアーノ
+    Staffordshire Bull Terrier:	スタッフォードシャー・ブル・テリア
+    Standard Schnauzer:	スタンダード・シュナウザー
+    Swedish Vallhund:	スウェーディッシュ・ヴァルフント
+    Thai Ridgeback:	タイ・リッジバック・ドッグ
+    Tibetan Mastiff:	チベタンマスティフ
+    Tibetan Spaniel:	チベタン・スパニエル
+    Tibetan Terrier:	チベタン・テリア
+    Treeing Walker Coonhound:	ツリーイングウォーカークーンハウンド
+    Vizsla:	ビズラ
+    Weimaraner:	ワイマラナー 
+    Welsh Corgi Cardigan: 	ウェルシュ・コーギー・カーディガン 
+    Welsh Corgi Pembroke:	ウェルシュ・コーギー・ペンブローク
+    Welsh Springer Spaniel:	ウェルシュ・スプリンガー・スパニエル
+    West Highland White Terrier:	ウエスト・ハイランド・ホワイト・テリア
+    Whippet:	ウィペット
+    WHITE SWISS SHEPHERD DOG:	ホワイト･スイス･シェパード・ドッグ
+    Wire Fox Terrier:	ワイアー・フォックス・テリア
+    Wirehaired Pointing Griffon:	ワイアーヘアード・ポインティング・グリフォン
+    Wirehaired Vizsla:	ワイアーヘアード・ビズラ
+    Xoloitzcuintli:	ショロイツクインツレ
+    Yorkshire Terrier:	ヨークシャー・テリア
   users:
     show:
       Page: マイページ
       name: 名前
       email: メールアドレス
-      Index: ワンちゃんの一覧ページ
+      Ind:ex: ワンちゃんの一覧ページ
       Matching: マッチング
       Matching_Results: マッチング結果
       Edit: プロフィールの編集
@@ -23,7 +191,7 @@ ja:
       Why don't you check with the place you would like to go?: お出かけしたい場所と一緒に調べてみてはいかがですか？
       Next: 次へ
       Back: 戻る
-    second:
+    second::
       Do you like cleaning up?: こまめなお掃除が？
       Notice: 当てはまる方を選んでください
       Like: 好き
@@ -42,7 +210,7 @@ ja:
       Have you ever heard of sheepdogs?: 牧羊犬をご存知ですか？
       They are responsible for bringing grazing sheep back together to pasture,bringing lost sheep back to the flock,: 放牧されている羊をまとめ牧舎に連れ戻したり、迷ったヒツジを群れに連れ戻すことを行い、
       and, They are physically strong and good at using their brains: 体力があり、頭を使うのが得意です。
-      There are other herding dogs, hounds, etc: 他にも牧畜犬や猟犬などもいます。
+      There are other herding dogs, hound:s, etc: 他にも牧畜犬や猟犬などもいます。
       There are so many of them that are active in dog sports,: ドッグスポーツで活躍している子がたくさんいるので、
       You may want to look into dog sports: ドッグスポーツについて調べてはいかがでしょうか。
       Next: 次へ
@@ -65,7 +233,7 @@ ja:
       Kids: 小さいお子さんがいる
       None: 小さいお子さんはいない
       It is adorable when doggies and children play together: わんちゃんとこどもが遊んでいると可愛らしいですね。
-      It would be wonderful if the doggie and the child could play together: わんちゃんとお子さんが仲良く遊べたら素敵です。
+      It would be wond:erful if the doggie and the child could play together: わんちゃんとお子さんが仲良く遊べたら素敵です。
       However, some breeds and personalities are not good with children: しかし、犬種や性格によっては子どもが苦手なわんちゃんもいます。
       Can you think of any dog breeds that are good with children?: 子どもと相性の良い犬種、思いつく犬種はありますか？
       Next: 次へ
@@ -75,14 +243,14 @@ ja:
       Notice: 当てはまる方を選んでください
       Owned: 持ち家
       Rent: 賃貸
-      It would be wonderful to have a doggy waiting for you when you get home: お家に帰ったら、わんちゃんが待っている暮らしは素敵ですよね。
+      It would be wond:erful to have a doggy waiting for you when you get home: お家に帰ったら、わんちゃんが待っている暮らしは素敵ですよね。
       In many cases, there are not many rental apartments that allow pets,: 賃貸で、ペット可の物件が少なかったり、
       only small dogs are allowed, and the size of the dog is specified: 小型犬のみとサイズが指定されていることが多いです。
       It is important to check the size of the adult dog of the breed you want to keep: 飼いたい犬種の成犬時のサイズの確認は大切ですね。
       Next: 次へ
       Back: 戻る
   user_choices:
-    index:
+    ind:ex:
       Answer: 選択した回答
       vehicle: 乗り物
       cleaning: 掃除
@@ -94,7 +262,7 @@ ja:
     top:
       Top page: トップページ
       Sign Up: 初めての方
-      Index: ワンちゃんの一覧ページ
+      Ind:ex: ワンちゃんの一覧ページ
       Guest login: ゲストログイン
       Admin login: 管理者ゲストログイン
       Japanese: 日本語
@@ -107,10 +275,10 @@ ja:
       Currently, some dogs are being abandoned: 現状では、飼育放棄されるわんちゃんがいます。
       This problem is caused by a mismatch: 飼い主の生活スタイルや環境と犬の相性が悪い、
       between the owner's lifestyle and environment, and the dog's personality: ミスマッチから起こる問題です
-      To spend 10-15 years of wonderful life with your dog: わんちゃんと10年15年とずっと素晴らしい日々を過ごすために、
-      you must be wondering what kind of dog is the best match for you: どんなわんちゃんがあなたと相性が良いのか気になりますよね。
+      To spend 10-15 years of wond:erful life with your dog: わんちゃんと10年15年とずっと素晴らしい日々を過ごすために、
+      you must be wond ering what kind of dog is the best match for you: どんなわんちゃんがあなたと相性が良いのか気になりますよね。
       Can we help you meet a wonderful family member?: 素晴らしい家族と出会うためのお手伝いに。
-      You can do a compatibility check:  Wonderで相性診断ができます。
+      You can do a compatibility check:  Wond:erで相性診断ができます。
   session:
     new:
       Sign up: サインイン
@@ -140,30 +308,33 @@ ja:
       Cleaning: 抜け毛
       Back: 戻る
     search:
-      Let find doggies: わんちゃんを探す
+      Let find:doggies: わんちゃんを探す
       Breed: 犬種名
       Size: 大きさ
+      No choice: 指定なし
       Low-shedding: 抜け毛が少ない
       Gentle: 穏やか
       Dog sport: ドッグスポーツ
       Short walking: お散歩少なめ
       Rent house: 賃貸OK
       Search: 検索
-      Index: ワンちゃんの一覧ページ
+      Ind:ex: ワンちゃんの一覧ページ
     search_results:
       <<: *dogs
       Search Dogs: わんちゃんを探してみる
       Search results: 検索結果
       Show: 詳しくみる
       Search Dogs: もっとわんちゃんを探してみる
-      Index: ワンちゃんの一覧ページ
+      Ind:ex: ワンちゃんの一覧ページ
     matching_results:
+      <<: *dogs
       Matching results: マッチングの結果
       Name: 犬種
       Matching: マッチング度
       Image: 写真
       Show: 詳しくみる
     index:
+      <<: *dogs
       Dogs: わんちゃん一覧
       Show: 詳しくみる
       Search Dogs: 他のわんちゃんを探してみる
