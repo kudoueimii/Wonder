@@ -54,12 +54,12 @@ class UserStepsController < ApplicationController
       render action: :sixth
     end
     @user_choice = current_user.build_user_choice(
-      vehicle: session[:vehicle],
+      vehicle:  session[:vehicle],
       cleaning: session[:cleaning],
-      active: session[:active],
+      active:   session[:active],
       exercise: session[:exercise],
-      home: session[:home],
-      house: user_choice_params[:house]
+      home:     session[:home], 
+      house:    user_choice_params[:house]
     )
     if @user_choice.save
       session[:id] = @user_choice.user_id
