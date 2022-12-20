@@ -1,6 +1,4 @@
 class UserStepsController < ApplicationController
-  # before_action :set_user_step, only: %i[ show edit update destroy ]
-
   def first
     @user_choice = UserChoice.new
   end
@@ -24,7 +22,7 @@ class UserStepsController < ApplicationController
   end
 
   def fourth
-    @user_choice= UserChoice.new
+    @user_choice = UserChoice.new
     if params[:user_choice]
       session[:active] = user_choice_params[:active]
     else
@@ -56,12 +54,12 @@ class UserStepsController < ApplicationController
       render action: :sixth
     end
     @user_choice = current_user.build_user_choice(
-      vehicle: session[:vehicle],
+      vehicle:  session[:vehicle],
       cleaning: session[:cleaning],
-      active: session[:active],
+      active:   session[:active],
       exercise: session[:exercise],
-      home: session[:home], 
-      house: user_choice_params[:house]
+      home:     session[:home], 
+      house:    user_choice_params[:house]
     )
     if @user_choice.save
       session[:id] = @user_choice.user_id
@@ -69,14 +67,9 @@ class UserStepsController < ApplicationController
     else
       render 'new'
     end
-
   end
 
   private
-
-  # def set_user_step
-  #   @user_step = UserStep.find(params[:id])
-  # end
 
   def user_choice_params
     params.require(:user_choice).permit(:vehicle, :cleaning, :active, :exercise, :home, :house, :user_id)

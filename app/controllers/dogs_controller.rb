@@ -1,5 +1,5 @@
 class DogsController < ApplicationController
-  before_action :set_q, only: [:search, :search_results]
+  before_action :set_q, only: %i[search search_results]
 
   def index
     @dogs = Dog.page(params[:page])
@@ -22,18 +22,17 @@ class DogsController < ApplicationController
   def search
     @results = @q.result
   end
-  
+
   def search_results
     @results = @q.result.page(params[:page])
   end
-  
+
   def matching_results
     @dogs = Dog.page(params[:page])
   end
-  private
- 
 
-  
+  private
+
   def set_q
     @q = Dog.ransack(params[:q])
   end
@@ -41,5 +40,4 @@ class DogsController < ApplicationController
   def dog_params
     params.require(:dog).permit(:name, :size, :vehicle, :cleaning, :active, :exercise, :home, :house, :image_url)
   end
-
 end

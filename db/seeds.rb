@@ -1,4 +1,5 @@
-require "csv"
+# frozen_string_literal:    true
+require 'csv'
 
 CSV.foreach('db/sample_list2.csv', headers: true) do |row|
   Dog.create(
@@ -16,84 +17,87 @@ end
 
 users = [
   User.create(
-    name: "anndou", 
-    email: "anndou@sample.com", 
-    password: "anndou"
+    name:     'anndou', 
+    email:    'anndou@sample.com', 
+    password: 'anndou'
   ),
   User.create(
-    name: "enndou", 
-    email: "enndou@sample.com",
-    password: "enndou"
+    name:     'enndou', 
+    email:    'enndou@sample.com',
+    password: 'enndou'
   ),
   User.create(
-    name: "kikuti", 
-    email: "kikuti@sample.com", 
-    password: "kikuti"
+    name:     'kikuti', 
+    email:    'kikuti@sample.com', 
+    password: 'kikuti'
   ),
   User.create(
-    name: "saitou", 
-    email: "konndo@sample.com", 
-    password: "saitou"
+    name:     'saitou', 
+    email:    'konndo@sample.com', 
+    password: 'saitou'
   ),
   User.create(
-    name: "saitou", 
-    email: "saitou@sample.com", 
-    password: "saitou"
+    name:     'saitou', 
+    email:    'saitou@sample.com', 
+    password: 'saitou'
   )]
 
-
 UserChoice.create!([
-  {
-    vehicle: 0,
+  {  
+    vehicle:  0,
     cleaning: 0,
-    active: 0,
+    active:   0,
     exercise: 0,
-    home: 0,
-    house: 0,
-    user_id: 1
+    home:     0,
+    house:    0,
+    user_id:  1
   },
-  {
-    vehicle: 1,
+  {  
+    vehicle:  1,
     cleaning: 1,
-    active: 0,
+    active:   0,
     exercise: 0,
-    home: 0,
-    house: 0,
-    user_id: 2
+    home:     0,
+    house:    0,
+    user_id:  2
+
   },
-  {
-    vehicle: 1,
+  {  
+    vehicle:  1,
     cleaning: 1,
-    active: 1,
+    active:   1,
     exercise: 1,
-    home: 0,
-    house: 0,
-    user_id: 3
+    home:     0,
+    house:    0,
+    user_id:  3
+   },
+  {  
+    vehicle:  1,
+    cleaning: 1,
+    active:   1,
+    exercise: 1,
+    home:     1,
+    house:    0,
+    user_id:  4
+
   },
-  {
-    vehicle: 1,
+  {  
+    vehicle:  1,
     cleaning: 1,
-    active: 1,
+    active:   1,
     exercise: 1,
-    home: 1,
-    house: 0,
-    user_id: 4
-  },
-  {
-    vehicle: 1,
-    cleaning: 1,
-    active: 1,
-    exercise: 1,
-    home: 1,
-    house: 1,
-    user_id: 5
+    home:     1,
+    house:    1,
+    user_id:  5
+
   },
 ])
 
 Favorite.create!([
-  {user_id: 1, dog_id: 1},
-  {user_id: 2, dog_id: 1},
-  {user_id: 3, dog_id: 1},
-  {user_id: 4, dog_id: 1},
-  {user_id: 5, dog_id: 1},
+  { user_id:  1, dog_id: 1 },
+  { user_id:  2, dog_id: 1 },
+  { user_id:  3, dog_id: 1 },
+  { user_id:  4, dog_id: 1 },
+  { user_id:  5, dog_id: 1 },
+
 ])

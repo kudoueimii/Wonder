@@ -1,60 +1,60 @@
 ja:
   activerecord:
     models:
-      user: 'ユーザー'
+      user: ユーザー
     attributes:
       user:
-        name: '名前'
-        email: 'メールアドレス'
-        password: 'パスワード'
-        password_confirmation: 'パスワード確認'
+        name: 名前
+        email: メールアドレス
+        password: パスワード
+        password_confirmation: パスワード確認
   enums:
     dog:
       size:
-        big: '大型犬'
-        medium: '中型犬'
-        small: '小型犬'
+        big: 大型犬
+        medium: 中型犬
+        small: 小型犬
       vehicle:
-        car: '車'
-        train: '電車'
+        car: 車
+        train: 電車
       cleaning:
-        like: '季節による換毛期のため、抜け毛が多い。'
-        dislike: 'シングルコートのため、抜け毛は少ない。'
+        like: 季節による換毛期のため、抜け毛が多い。
+        dislike: シングルコートのため、抜け毛は少ない。
       active:
-        like: '優れた運動能力がある。お散歩や運動時間の確保が必要。'
-        dislike: '多くの運動は必要としないが、適度な遊びが必要'
+        like: 優れた運動能力がある。お散歩や運動時間の確保が必要。
+        dislike: 多くの運動は必要としないが、適度な遊びが必要
       exercise:
-        like: '１時間以上の散歩が必要。'
-        dislike: ''
+        like: １時間以上の散歩が必要。
+        dislike: 
       home:
-        kids: '子どもと仲良く遊べ、愛情深く、穏やか。'
-        none: 'しつけをきちんと行う必要がある。'
+        kids: 子どもと仲良く遊べ、愛情深く、穏やか。
+        none: しつけをきちんと行う必要がある。
       house:
-        owned: '持ち家'
-        rent: '賃貸'
+        owned: 持ち家
+        rent: 賃貸
     user_choice:
       size:
-        big: '大型犬'
-        medium: '中型犬'
-        small: '小型犬'
+        big: 大型犬
+        medium: 中型犬
+        small: 小型犬
       vehicle:
-        car: '車'
-        train: '電車'
+        car: 車
+        train: 電車
       cleaning:
-        like: 'こまめにするのが好き'
-        dislike: 'あまり好きではない'
+        like: こまめにするのが好き
+        dislike: あまり好きではない
       active:
-        like: 'アクティブに過ごす'
-        dislike: '家で過ごす方が多い'
+        like: アクティブに過ごす
+        dislike: 家で過ごす方が多い
       exercise:
-        like: '１時間以上散歩できる'
-        dislike: 'あまり好きではない'
+        like: １時間以上散歩できる
+        dislike: あまり好きではない
       home:
-        kids: '小さいお子さんがいる、家族が増える予定だ'
-        none: '小さいお子さんはいない'
+        kids: 小さいお子さんがいる、家族が増える予定だ
+        none: 小さいお子さんはいない
       house:
-        owned: '持ち家'
-        rent: '賃貸'
+        owned: 持ち家
+        rent: 賃貸
   helpers:
     placeholder:
       message:
