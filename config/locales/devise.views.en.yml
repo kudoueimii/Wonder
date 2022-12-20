@@ -13,7 +13,7 @@ en:
     sessions:
       new:
         name: Name
-        Sign up: Sign up
+        Sign_in: Sign in
     shared:
       links:
         back: Back

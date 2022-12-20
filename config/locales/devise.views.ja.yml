@@ -122,6 +122,7 @@ ja:
       already_signed_out: 既にログアウト済みです。
       new:
         sign_in: ログイン
+        Sign_in: ログイン
       signed_in: ログインしました。
       signed_out: ログアウトしました。
       characters minimum: 文字以上
@@ -135,7 +136,6 @@ ja:
         sign_in_with_provider: "%{provider}でログイン"
         Sign up: アカウント登録
       minimum_password_length: "（%{count}字以上）"
-
     unlocks:
       new:
         resend_unlock_instructions: アカウントのロック解除方法を再送する
