@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 require "csv"
+=======
+# frozen_string_literal: true
+require 'csv'
+>>>>>>> Stashed changes
 
 CSV.foreach('db/sample_list2.csv', headers: true) do |row|
   Dog.create(
@@ -16,6 +21,7 @@ end
 
 users = [
   User.create(
+<<<<<<< Updated upstream
     name: "anndou", 
     email: "anndou@sample.com", 
     password: "anndou"
@@ -41,9 +47,41 @@ users = [
     password: "saitou"
   )]
 
+=======
+    name: 'anndou', 
+    email: 'anndou@sample.com', 
+    password: 'anndou'
+  ),
+  User.create(
+    name: 'enndou', 
+    email: 'enndou@sample.com',
+    password: 'enndou'
+  ),
+  User.create(
+    name: 'kikuti', 
+    email: 'kikuti@sample.com', 
+    password: 'kikuti'
+  ),
+  User.create(
+    name: 'saitou', 
+    email: 'konndo@sample.com', 
+    password: 'saitou'
+  ),
+  User.create(
+    name: 'saitou', 
+    email: 'saitou@sample.com', 
+    password: 'saitou'
+  )
+]
+>>>>>>> Stashed changes
+
 
 UserChoice.create!([
+<<<<<<< Updated upstream
   {
+=======
+  {  
+>>>>>>> Stashed changes
     vehicle: 0,
     cleaning: 0,
     active: 0,
@@ -51,8 +89,13 @@ UserChoice.create!([
     home: 0,
     house: 0,
     user_id: 1
+<<<<<<< Updated upstream
   },
   {
+=======
+   },
+  {  
+>>>>>>> Stashed changes
     vehicle: 1,
     cleaning: 1,
     active: 0,
@@ -60,8 +103,13 @@ UserChoice.create!([
     home: 0,
     house: 0,
     user_id: 2
+<<<<<<< Updated upstream
   },
   {
+=======
+   },
+  {  
+>>>>>>> Stashed changes
     vehicle: 1,
     cleaning: 1,
     active: 1,
@@ -69,8 +117,13 @@ UserChoice.create!([
     home: 0,
     house: 0,
     user_id: 3
+<<<<<<< Updated upstream
   },
   {
+=======
+   },
+  {  
+>>>>>>> Stashed changes
     vehicle: 1,
     cleaning: 1,
     active: 1,
@@ -78,8 +131,13 @@ UserChoice.create!([
     home: 1,
     house: 0,
     user_id: 4
+<<<<<<< Updated upstream
   },
   {
+=======
+   },
+  {  
+>>>>>>> Stashed changes
     vehicle: 1,
     cleaning: 1,
     active: 1,
@@ -87,6 +145,7 @@ UserChoice.create!([
     home: 1,
     house: 1,
     user_id: 5
+<<<<<<< Updated upstream
   },
 ])
 
@@ -96,4 +155,15 @@ Favorite.create!([
   {user_id: 3, dog_id: 1},
   {user_id: 4, dog_id: 1},
   {user_id: 5, dog_id: 1},
+=======
+   },
+])
+
+Favorite.create!([
+  { user_id: 1, dog_id: 1 },
+  { user_id: 2, dog_id: 1 },
+  { user_id: 3, dog_id: 1 },
+  { user_id: 4, dog_id: 1 },
+  { user_id: 5, dog_id: 1 },
+>>>>>>> Stashed changes
 ])
