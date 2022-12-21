@@ -35,13 +35,13 @@ p {
 	content: "";
 	position: absolute;
 	left: 110px;
-  top: 215px;/* y位置 */
-	width: 60px; /* 幅 */
-	height: 100px; /* 高さ */
-	background: #fffaff; /* 色 */
-	border-radius: 100px 60px 0 0; /* 丸み */
-	transform: rotate(-45deg); /* 角度調整 */
-	transform-origin: 0 100%; /* 回転の基準点 */
+  top: 215px;
+	width: 60px;
+	height: 100px;
+	background: #fffaff;
+	border-radius: 100px 60px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
   z-index: -1;
 }
 
@@ -50,12 +50,12 @@ p {
 	position: absolute;
   left: 51px;
   top: 215px;
-	width: 60px; /* 幅 */
-	height: 100px; /* 高さ */
-	background: #fffaff; /* 色 */
-	border-radius: 60px 100px 0 0; /* 丸み */
-	transform: rotate(45deg); /* 角度調整 */
-	transform-origin: 100% 100%; /* 回転の基準点 */
+	width: 60px;
+	height: 100px;
+	background: #fffaff;
+	border-radius: 60px 100px 0 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
   z-index: -1;
 }
 

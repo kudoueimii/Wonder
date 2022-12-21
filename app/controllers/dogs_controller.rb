@@ -2,7 +2,7 @@ class DogsController < ApplicationController
   before_action :set_q, only: %i[search search_results]
 
   def index
-    @dogs = Dog.page(params[:page]) #
+    @dogs = Dog.page(params[:page])
   end
 
   def new
@@ -24,11 +24,11 @@ class DogsController < ApplicationController
   end
 
   def search_results
-    @results = @q.result.page(params[:page]) # 
+    @results = @q.result.page(params[:page])
   end
 
   def matching_results
-    @dogs = Dog.page(params[:page]) #
+    @dogs = Dog.page(params[:page])
   end
 
   private
