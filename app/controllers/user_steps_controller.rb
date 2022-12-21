@@ -1,6 +1,6 @@
 class UserStepsController < ApplicationController
   def first
-    @user_choice = UserChoice.new #繰り返し
+    @user_choice = UserChoice.new
   end
 
   def second

@@ -4,7 +4,7 @@ class UserChoicesController < ApplicationController
   end
 
   def new
-    @user_choice = UserChoice.new #()
+    @user_choice = UserChoice.new
   end
 
   def create
