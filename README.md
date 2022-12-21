@@ -1,18 +1,26 @@
 # README
 
-Wonder
+Wonder  
 url:https://rocky-fjord-54987.herokuapp.com/
-![](image/home.png)
+![](/app/assets/images/home.png)
+
+##　概要
+ペットの飼育数が増え、またコロナ禍でさらにペットを飼う方が増えました。
+しかし、飼育数の増加に伴い、飼育放棄も起きています。
+主な原因として、飼い主の生活スタイルとペットの性格のミスマッチによるものです。
+犬を飼いたいと思っている方に。
+犬の性格や特徴と、飼い主の生活スタイルに合う犬種を知ることは飼育放棄を防ぐ大事なことです。
+Wonderでは、それぞれの飼い主に合う犬種を紹介するマッチングアプリです。
 
 ## カタログ設計, テーブル設計
 https://docs.google.com/spreadsheets/d/e/2PACX-1vSRQN54k3MN_VwuyVJr9PlewLS2Y6AR-_ftvcuTe7b5L4XSqBJqo_KnHMyuRV9NBVDIXpDvc9ccRTJV/pubhtml
 
 ## ER図
-![](image/ERD.png)
+![](/app/assets/images/ERD.png)
 https://lucid.app/documents/view/5cc8bef7-9e67-48b2-9158-365f619bf22a
 
 ## 画面遷移図
-![](image/STD.png)
+![](/app/assets/images/STD.png) 
 https://lucid.app/documents/view/474f50e1-0de3-4287-9fdb-3240f62c8149
 
 ## フレームワーク
