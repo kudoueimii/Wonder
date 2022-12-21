@@ -1,196 +1,196 @@
 ja:
   Dogs: &dogs
-    Affenpinscher:	アーフェンピンシャー
-    Afghan Hound:	アフガン・ハウンド
-    Airedale Terrier:	エアデール・テリア
-    Akbash Dog:	アクバシュ
-    Akita:	秋田犬
-    Alaskan Husky:	アラスカン・ハスキー
-    Alaskan Malamute:	アラスカン・マラミュート
-    American Eskimo Dog:	アメリカン・エスキモー・ドッグ
-    American Eskimo Dog (Miniature):	アメリカン・エスキモー・ドッグ(ミニチュア)
-    American Foxhound:	アメリカン・フォックスハウンド
-    American Pit Bull Terrier:	アメリカン・ピット・ブル・テリア
-    American Staffordshire Terrier:	アメリカン・スタッフォードシャー・テリア
-    American Water Spaniel:	アメリカン・ウォーター・スパニエル
-    Anatolian Shepherd Dog:	アナトリアン・シェパード・ドッグ
-    Appenzeller Sennenhund:	アッペンツェラー・キャトル・ドッグ
-    Australian Cattle Dog:	オーストラリアン・キャトル・ドッグ 
-    Australian Kelpie:	オーストラリアン・ケルピー
-    Australian Shepherd:	オーストラリアン・シェパード
-    Australian Terrier:	オーストラリアン・テリア
-    Azawakh:	アザワク
+    Affenpinscher: アーフェンピンシャー
+    Afghan Hound: アフガン・ハウンド
+    Airedale Terrier: エアデール・テリア
+    Akbash Dog: アクバシュ
+    Akita: 秋田犬
+    Alaskan Husky: アラスカン・ハスキー
+    Alaskan Malamute: アラスカン・マラミュート
+    American Eskimo Dog: アメリカン・エスキモー・ドッグ
+    American Eskimo Dog (Miniature): アメリカン・エスキモー・ドッグ(ミニチュア)
+    American Foxhound: アメリカン・フォックスハウンド
+    American Pit Bull Terrier: アメリカン・ピット・ブル・テリア
+    American Staffordshire Terrier: アメリカン・スタッフォードシャー・テリア
+    American Water Spaniel: アメリカン・ウォーター・スパニエル
+    Anatolian Shepherd Dog: アナトリアン・シェパード・ドッグ
+    Appenzeller Sennenhund: アッペンツェラー・キャトル・ドッグ
+    Australian Cattle Dog: オーストラリアン・キャトル・ドッグ 
+    Australian Kelpie: オーストラリアン・ケルピー
+    Australian Shepherd: オーストラリアン・シェパード
+    Australian Terrier: オーストラリアン・テリア
+    Azawakh: アザワク
 
-    Barbet:	バルビー
-    Basenji:	バセンジー
-    Basset Bleu de Gascogne:	バセー・ブルー・ド・ガスコーニュ
-    Basset Hound:	バセット・ハウンド
-    Beagle:	ビーグル
-    Bearded Collie:	ビアデッド・コリー
-    Beauceron:	ボースロン
-    Bedlington Terrier:	ベドリントン・テリア
-    Belgian Malinois:	ベルジアン・シェパード・ドッグ
-    Belgian Tervuren:	ベルジアン・シェパード・ドッグ・タービュレン
-    Bernese Mountain Dog:	バーニーズ・マウンテン・ドッグ
-    Bichon Frise:	ビション・フリーゼ
-    Black and Tan Coonhound:	ブラック・アンド・タン・クーンハウンド
-    Bloodhound:	ブラッドハウンド
-    Bluetick Coonhound:	ブルーティック・クーンハウンド
-    Border Collie:	ボーダー・コリー
-    Border Terrier:	ボーダー・テリア
-    Borzoi:	ボルゾイ
-    Boston Terrier:	ボストン・テリア
-    Bouvier des Fland res:	ブービエ・デ・フランダース
-    Boxer:	ボクサー
-    Boykin Spaniel:	ボイキン・スパニエル
-    Bracco Italiano:	ブラッコ・イタリアーノ
-    Briard:	ブリアード
-    Brittany:	ブリタニー・スパニエル
-    Bull Terrier:	ブル・テリア
+    Barbet: バルビー
+    Basenji: バセンジー
+    Basset Bleu de Gascogne: バセー・ブルー・ド・ガスコーニュ
+    Basset Hound: バセット・ハウンド
+    Beagle: ビーグル
+    Bearded Collie: ビアデッド・コリー
+    Beauceron: ボースロン
+    Bedlington Terrier: ベドリントン・テリア
+    Belgian Malinois: ベルジアン・シェパード・ドッグ
+    Belgian Tervuren: ベルジアン・シェパード・ドッグ・タービュレン
+    Bernese Mountain Dog: バーニーズ・マウンテン・ドッグ
+    Bichon Frise: ビション・フリーゼ
+    Black and Tan Coonhound: ブラック・アンド・タン・クーンハウンド
+    Bloodhound: ブラッドハウンド
+    Bluetick Coonhound: ブルーティック・クーンハウンド
+    Border Collie: ボーダー・コリー
+    Border Terrier: ボーダー・テリア
+    Borzoi: ボルゾイ
+    Boston Terrier: ボストン・テリア
+    Bouvier des Fland res: ブービエ・デ・フランダース
+    Boxer: ボクサー
+    Boykin Spaniel: ボイキン・スパニエル
+    Bracco Italiano: ブラッコ・イタリアーノ
+    Briard: ブリアード
+    Brittany: ブリタニー・スパニエル
+    Bull Terrier: ブル・テリア
     Bull Terrier: (Miniature)	ミニチュア・ブル・テリア
-    Bullmastiff:	ブルマスティフ
+    Bullmastiff: ブルマスティフ
 
-    Cairn Terrier:	ケアーン・テリア
-    Cane Corso:	イタリアン・コルソ・ドッグ
-    Catahoula Leopard Dog:	カタフーラ・レパード・ドッグ
-    Caucasian Shepherd (Ovcharka):	コーカシアン・シェパード・ドッグ
-    Cavalier King Charles Spaniel:	キャバリア・キング・チャールズ・スパニエル
-    Chesapeake Bay Retriever:	チェサピーク・ベイ・レトリーバー
-    Chinese Crested:	チャイニーズ・クレステッド・ドッグ
-    Chinese Shar-Pei:	シャー・ペイ
-    Chihuahua:	チワワ
-    Chinook:	チヌーク
-    Chow Chow:	チャウチャウ
-    Clumber Spaniel:	クランバー・スパニエル
-    Cocker Spaniel:	コッカー・スパニエル
-    Cocker Spaniel (American):	アメリカン・コッカー・スパニエル
-    Coton de Tulear:	コトン・ド・テュレアール
+    Cairn Terrier: ケアーン・テリア
+    Cane Corso: イタリアン・コルソ・ドッグ
+    Catahoula Leopard Dog: カタフーラ・レパード・ドッグ
+    Caucasian Shepherd (Ovcharka): コーカシアン・シェパード・ドッグ
+    Cavalier King Charles Spaniel: キャバリア・キング・チャールズ・スパニエル
+    Chesapeake Bay Retriever: チェサピーク・ベイ・レトリーバー
+    Chinese Crested: チャイニーズ・クレステッド・ドッグ
+    Chinese Shar-Pei: シャー・ペイ
+    Chihuahua: チワワ
+    Chinook: チヌーク
+    Chow Chow: チャウチャウ
+    Clumber Spaniel: クランバー・スパニエル
+    Cocker Spaniel: コッカー・スパニエル
+    Cocker Spaniel (American): アメリカン・コッカー・スパニエル
+    Coton de Tulear: コトン・ド・テュレアール
 
-    Dalmatian:	ダルメシアン
-    Doberman Pinscher:	ドーベルマン
-    Dahshound:	ダックスフント
-    Dogo Argentino:	ドゴ・アルヘンティーノ
-    Dutch Shepherd:	ダッチ・シェパード
+    Dalmatian: ダルメシアン
+    Doberman Pinscher: ドーベルマン
+    Dahshound: ダックスフント
+    Dogo Argentino: ドゴ・アルヘンティーノ
+    Dutch Shepherd: ダッチ・シェパード
 
-    English Setter:	イングリッシュ・セター
-    English Shepherd:	イングリッシュ・シェパード・ドッグ
-    English Springer Spaniel:	イングリッシュ・スプリンガー・スパニエル
-    English Toy Spaniel:	イングリッシュ・トイ・スパニエル
-    English Toy Terrier:	イングリッシュ･トイ･テリア
-    Entlebuche Cattle Dog:	エントレブッハー・キャトル・ドッグ
-    Eurasier:	ユーラシア
+    English Setter: イングリッシュ・セター
+    English Shepherd: イングリッシュ・シェパード・ドッグ
+    English Springer Spaniel: イングリッシュ・スプリンガー・スパニエル
+    English Toy Spaniel: イングリッシュ・トイ・スパニエル
+    English Toy Terrier: イングリッシュ･トイ･テリア
+    Entlebuche Cattle Dog: エントレブッハー・キャトル・ドッグ
+    Eurasier: ユーラシア
 
-    Field Spaniel:	フィールド・スパニエル
-    Finnish Lapphund:	フィニッシュ・ラップフンド
-    Finnish Spitz:	フィニッシュ・スピッツ
-    French Bulldog:	フレンチ・ブルドッグ
+    Field Spaniel: フィールド・スパニエル
+    Finnish Lapphund: フィニッシュ・ラップフンド
+    Finnish Spitz: フィニッシュ・スピッツ
+    French Bulldog: フレンチ・ブルドッグ
 
-    German Pinscher:	ジャーマン・ピンシャー
-    German Shepherd Dog:	ジャーマンシェパード
-    German Shorthaired Pointer:	ジャーマン・ショートヘアード・ポインター
-    Giant Schnauzer:	ジャイアント・シュナウザー
-    Glen of Imaal Terrier:	グレン・オブ・イマール・テリア
-    Golden Retriever:	ゴールデン・レトリバー
-    Gordon Setter:	ゴードン・セッター
-    Great Dane:	グレート・デン
-    Great Pyrenees:	グレート・ピレニーズ
-    Greyhound:	グレイハウンド
-    Griffon Bruxellois:	ブリュッセル・グリフォン
+    German Pinscher: ジャーマン・ピンシャー
+    German Shepherd Dog: ジャーマンシェパード
+    German Shorthaired Pointer: ジャーマン・ショートヘアード・ポインター
+    Giant Schnauzer: ジャイアント・シュナウザー
+    Glen of Imaal Terrier: グレン・オブ・イマール・テリア
+    Golden Retriever: ゴールデン・レトリバー
+    Gordon Setter: ゴードン・セッター
+    Great Dane: グレート・デン
+    Great Pyrenees: グレート・ピレニーズ
+    Greyhound: グレイハウンド
+    Griffon Bruxellois: ブリュッセル・グリフォン
 
-    Harrier:	ハーリア
-    Havanese:	ハバニーズ
+    Harrier: ハーリア
+    Havanese: ハバニーズ
 
-    Ibizan Hound:	イビザン・ハウンド
-    Irish Setter:	アイリッシュ・セッター
-    Irish Terrier:	アイリッシュ・テリア
-    Irish Wolfhound:	アイリッシュ・ウルフハウンド
-    Italian Greyhound:	イタリアン・グレイハウンド
+    Ibizan Hound: イビザン・ハウンド
+    Irish Setter: アイリッシュ・セッター
+    Irish Terrier: アイリッシュ・テリア
+    Irish Wolfhound: アイリッシュ・ウルフハウンド
+    Italian Greyhound: イタリアン・グレイハウンド
 
-    Japanese Chin:	狆
-    Japanese Spitz:	スピッツ
+    Japanese Chin: 狆
+    Japanese Spitz: スピッツ
 
-    Keeshond:	キースホンド
-    Komondor:	コモンドール
-    Kooikerhondje:	コーイケルホンディエ 
-    Kuvasz:	クーバース
+    Keeshond: キースホンド
+    Komondor: コモンドール
+    Kooikerhondje: コーイケルホンディエ 
+    Kuvasz: クーバース
 
-    Labrador Retriever:	ラブラドール・レトリバー
-    Lagotto Romagnolo:	ロマーニョ・ウォーター・ドッグ
-    Lancashire Heeler:	ランカシャー・ヒーラー
-    Leonberger:	レオンベルガー
-    Lhasa Apso:	ラサ・アプソ
+    Labrador Retriever: ラブラドール・レトリバー
+    Lagotto Romagnolo: ロマーニョ・ウォーター・ドッグ
+    Lancashire Heeler: ランカシャー・ヒーラー
+    Leonberger: レオンベルガー
+    Lhasa Apso: ラサ・アプソ
 
-    Maltese:	マルチーズ
-    Miniature American Shepherd:	ミニチュア・オーストラリアン・シェパード
-    Miniature Pinscher:	ミニチュア・ピンシャー
-    Miniature Schnauzer:	ミニチュア・シュナウザー
+    Maltese: マルチーズ
+    Miniature American Shepherd: ミニチュア・オーストラリアン・シェパード
+    Miniature Pinscher: ミニチュア・ピンシャー
+    Miniature Schnauzer: ミニチュア・シュナウザー
 
-    Newfoundland:	ニューファンドランド
-    Norfolk Terrier:	ノーフォーク・テリア
-    Norwegian Elkhound:	ノルウェジアン・エルクハウンド・グレー
-    Norwich Terrier:	ノーリッチ・テリア
-    Nova Scotia Duck Tolling Retriever:	ノヴァ・スコシア・ダック・トーリング・レトリーバー
+    Newfoundland: ニューファンドランド
+    Norfolk Terrier: ノーフォーク・テリア
+    Norwegian Elkhound: ノルウェジアン・エルクハウンド・グレー
+    Norwich Terrier: ノーリッチ・テリア
+    Nova Scotia Duck Tolling Retriever: ノヴァ・スコシア・ダック・トーリング・レトリーバー
 
-    Old English Sheepdog:	オールド・イングリッシュ・シープドッグ
+    Old English Sheepdog: オールド・イングリッシュ・シープドッグ
 
-    Papillon:	パピヨン
-    Pekingese:	ペキニーズ
-    Pharaoh Hound:	ファラオ・ハウンド
-    Pomeranian:	ポメラニアン
-    Poodle (Miniature):	ミニチュアプードル
-    Poodle (Toy):	トイプードル
-    Pug:	パグ
-    Puli:	プーリー
-    Pumi:	プーミー
+    Papillon: パピヨン
+    Pekingese: ペキニーズ
+    Pharaoh Hound: ファラオ・ハウンド
+    Pomeranian: ポメラニアン
+    Poodle (Miniature): ミニチュアプードル
+    Poodle (Toy): トイプードル
+    Pug: パグ
+    Puli: プーリー
+    Pumi: プーミー
 
-    Rat Terrier:	ラット・テリア
-    Redbone Coonhound:	レッドボーン・クーンハウンド
-    Rhodesian Ridgeback:	ローデシアン・リッジバック
-    Rottweiler:	ロットワイラー
-    Russian Toy:	ロシアン・トイ・テリア
+    Rat Terrier: ラット・テリア
+    Redbone Coonhound: レッドボーン・クーンハウンド
+    Rhodesian Ridgeback: ローデシアン・リッジバック
+    Rottweiler: ロットワイラー
+    Russian Toy: ロシアン・トイ・テリア
 
-    Saint Bernard:	セント・バーナード
-    Saluki:	サルーキ
-    Samoyed:	サモエド
-    Schipperke:	スキッパーキ
-    Scottish Deerhound:	スコティッシュ・ディアハウンド
-    Scottish Terrier:	スコティッシュ・テリア
-    Shetland Sheepdog:	シェットランド シープドッグ
-    Shiba Inu:	柴犬
-    Shih Tzu:	シー・ズー
-    Shiloh Shepherd:	シャイロ・シェパード
-    Siberian Husky:	シベリアン ハスキー
-    Silky Terrier:	シルキー テリア
-    Smooth Fox Terrier:	スムース・フォックス・テリア
-    Soft Coated Wheaten Terrier:	ソフトコーテッド・ウィートン・テリア
-    Spanish Water Dog:	スパニッシュ・ウォーター・ドッグ
-    Spinone Italiano:	スピノーネ・イタリアーノ
-    Staffordshire Bull Terrier:	スタッフォードシャー・ブル・テリア
-    Standard Schnauzer:	スタンダード・シュナウザー
-    Swedish Vallhund:	スウェーディッシュ・ヴァルフント
+    Saint Bernard: セント・バーナード
+    Saluki: サルーキ
+    Samoyed: サモエド
+    Schipperke: スキッパーキ
+    Scottish Deerhound: スコティッシュ・ディアハウンド
+    Scottish Terrier: スコティッシュ・テリア
+    Shetland Sheepdog: シェットランド シープドッグ
+    Shiba Inu: 柴犬
+    Shih Tzu: シー・ズー
+    Shiloh Shepherd: シャイロ・シェパード
+    Siberian Husky: シベリアン ハスキー
+    Silky Terrier: シルキー テリア
+    Smooth Fox Terrier: スムース・フォックス・テリア
+    Soft Coated Wheaten Terrier: ソフトコーテッド・ウィートン・テリア
+    Spanish Water Dog: スパニッシュ・ウォーター・ドッグ
+    Spinone Italiano: スピノーネ・イタリアーノ
+    Staffordshire Bull Terrier: スタッフォードシャー・ブル・テリア
+    Standard Schnauzer: スタンダード・シュナウザー
+    Swedish Vallhund: スウェーディッシュ・ヴァルフント
 
-    Thai Ridgeback:	タイ・リッジバック・ドッグ
-    Tibetan Mastiff:	チベタンマスティフ
-    Tibetan Spaniel:	チベタン・スパニエル
-    Tibetan Terrier:	チベタン・テリア
-    Treeing Walker Coonhound:	ツリーイングウォーカークーンハウンド
+    Thai Ridgeback: タイ・リッジバック・ドッグ
+    Tibetan Mastiff: チベタンマスティフ
+    Tibetan Spaniel: チベタン・スパニエル
+    Tibetan Terrier: チベタン・テリア
+    Treeing Walker Coonhound: ツリーイングウォーカークーンハウンド
 
-    Vizsla:	ビズラ
+    Vizsla: ビズラ
 
-    Weimaraner:	ワイマラナー 
+    Weimaraner: ワイマラナー 
     Welsh Corgi Cardigan: 	ウェルシュ・コーギー・カーディガン 
-    Welsh Corgi Pembroke:	ウェルシュ・コーギー・ペンブローク
-    Welsh Springer Spaniel:	ウェルシュ・スプリンガー・スパニエル
-    West Highland White Terrier:	ウエスト・ハイランド・ホワイト・テリア
-    Whippet:	ウィペット
-    WHITE SWISS SHEPHERD DOG:	ホワイト･スイス･シェパード・ドッグ
-    Wire Fox Terrier:	ワイアー・フォックス・テリア
-    Wirehaired Pointing Griffon:	ワイアーヘアード・ポインティング・グリフォン
-    Wirehaired Vizsla:	ワイアーヘアード・ビズラ
+    Welsh Corgi Pembroke: ウェルシュ・コーギー・ペンブローク
+    Welsh Springer Spaniel: ウェルシュ・スプリンガー・スパニエル
+    West Highland White Terrier: ウエスト・ハイランド・ホワイト・テリア
+    Whippet: ウィペット
+    WHITE SWISS SHEPHERD DOG: ホワイト･スイス･シェパード・ドッグ
+    Wire Fox Terrier: ワイアー・フォックス・テリア
+    Wirehaired Pointing Griffon: ワイアーヘアード・ポインティング・グリフォン
+    Wirehaired Vizsla: ワイアーヘアード・ビズラ
 
-    Xoloitzcuintli:	ショロイツクインツレ
+    Xoloitzcuintli: ショロイツクインツレ
 
-    Yorkshire Terrier:	ヨークシャー・テリア
+    Yorkshire Terrier: ヨークシャー・テリア
   users:
     show:
       Page: マイページ
