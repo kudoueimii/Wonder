@@ -15,10 +15,14 @@
             <div class="col-4 col-sm-6">
               <% if @user_favorite.present? %>
                 <br>
-                <%= link_to '💜', favorite_path(id: @user_favorite.id), method: :delete %>
+                <%= link_to favorite_path(id: @user_favorite.id), method: :delete do %>
+                  <i class="fas fa-heart unlike-btn"></i>
+                <% end%>
               <% else %>
                 <br>
-                <%= link_to '💟', favorites_path(dog_id: @dog.id), method: :post %>
+                <%= link_to favorites_path(dog_id: @dog.id), method: :post do %>
+                  <i class="far fa-heart like-btn" ></i>
+                <% end %>
               <% end %>
             </div>
           </div>
