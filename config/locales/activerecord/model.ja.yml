@@ -30,8 +30,8 @@ ja:
         kids: 子どもと仲良く遊べ、愛情深く、穏やか。
         none: しつけをきちんと行う必要がある。
       house:
-        owned: 持ち家
-        rent: 賃貸
+        owned: 持ち家が好ましい。
+        rent: 賃貸ok
     user_choice:
       size:
         big: 大型犬
