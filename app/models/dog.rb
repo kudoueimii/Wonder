@@ -10,5 +10,5 @@ class Dog < ApplicationRecord
   enum active:   { like:  0, dislike: 1 },           _prefix: true
   enum exercise: { like:  0, dislike: 1 },           _prefix: true
   enum home:     { kids:  0, none:    1 },           _prefix: true
-  enum house:    { owned: 0, lent:    1 },           _prefix: true
+  enum house:    { owned: 0, rent:    1 },           _prefix: true
 end
